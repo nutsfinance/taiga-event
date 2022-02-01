@@ -1,0 +1,110 @@
+<div
+  class="flex flex-col justify-center items-start lg:items-center w-full h-screen lg:px-0 bg-primary-500"
+>
+  <div class="w-full max-w-3xl px-8">
+    <div class="text-3xl lg:text-5xl text-taiga-gray-50 font-semibold mb-8">
+      Link your Accounts
+    </div>
+    {{#if error}}
+      <div
+        class="flex flex-row justify-start items-center gap-5 w-full h-12 lg:h-16 bg-taiga-gray-50 rounded-md text-md lg:text-xl text-red-600 font-semibold px-6 mb-6 shadow-md"
+      >
+        <div
+          class="flex justify-center items-center w-8 lg:w-10 h-8 lg:h-10 rounded-full border-2 border-red-600 text-2xl text-red-600"
+        >!</div>
+        <div>{{error}}</div>
+      </div>
+    {{/if}}
+    <form
+      method="POST"
+      action="/form"
+      class="flex flex-col justify-center items-start gap-5"
+    >
+      <label
+        for="username"
+        class="flex flex-col lg:flex-row text-taiga-gray-50 font-medium"
+      >Discord Username
+      </label>
+      <div class="flex w-full flex-col gap-2 all_width">
+        <input
+          class="w-full h-12 pl-2 rounded-md shadow-md text-taiga-gray-200 bg-white bg-opacity-30 cursor-not-allowed outline-none"
+          name="username"
+          type="text"
+          readonly
+          placeholder="Discord username"
+          value="{{username}}"
+        />
+        <div class="text-xs lg:text-sm text-taiga-gray-100">Note: this was
+          pulled from your Discord login</div>
+      </div>
+      <label for="karuraAddress" class="text-taiga-gray-50 font-medium">Karura Address</label>
+      <div class="flex flex-col gap-2">
+        <input
+          class="w-full h-12 pl-2 rounded-md shadow-md text-taiga-gray-900 all_width"
+          name="karuraAddress"
+          type="text"
+          required
+          placeholder="Karura address"
+          value="{{karuraAddress}}"
+        />
+        <div class="text-taiga-gray-50 text-sm">Karura addresses with on-chain
+          transactions utilizing Karura DeFi apps before 1168113 are eligible
+          for rewards during "Explore the magical trail" event and will receive an
+          airdrop. New Karura users can also qualify for the airdrop by
+          completing additional missions outlined in the Taiga Discord. Need a
+          new Karura address? See the
+          <a
+            class="underline"
+            href="https://pale-broccoli-c54.notion.site/Connect-wallet-c7e1e331c6fe488c83e08bbf30fe9781"
+            target="_blank"
+          >guide</a>.</div>
+      </div>
+      <label for="karuraCrowdLoanAddress" class="text-taiga-gray-50 font-medium">Karura crowdloan address</label>
+      <div class="flex flex-col gap-2 all_width">
+        <input
+          class="w-full h-12 pl-2 rounded-md shadow-md text-taiga-gray-900"
+          name="karuraCrowdLoanAddress"
+          type="text"
+          required
+          placeholder="Karura crowdloan address"
+          value="{{karuraCrowdLoanAddress}}"
+        />
+        <div class="text-xs lg:text-sm text-taiga-gray-100">
+          
+        </div>
+      </div>
+      <label for="email" class="text-taiga-gray-50 font-medium">Newsletter subscribed email
+        </label>
+      <div class="flex flex-col gap-2 all_width">
+        <input
+          class="w-full h-12 pl-2 rounded-md shadow-md text-taiga-gray-900"
+          name="email"
+          type="email"
+          required
+          placeholder="Subscribed email"
+          value="{{email}}"
+        />
+        <div class="text-taiga-gray-50 text-sm">Input your email address subscribed to Taiga Substack.</div>
+      </div>
+
+      <label for="telegramUser" class="text-taiga-gray-50 font-medium">Telegram username
+        </label>
+      <div class="flex flex-col gap-2 all_width all_width">
+        <input
+          class="w-full h-12 pl-2 rounded-md shadow-md text-taiga-gray-900"
+          name="telegramUser"
+          type="telegramUser"
+          required
+          placeholder="Telegram Username"
+          value="{{telegramUser}}"
+        />
+        <div class="text-taiga-gray-50 text-sm">Input the Telegram username which you joined Taiga Official Community Telegram goup.</div>
+      </div>
+      <button
+        type="submit"
+        class="self-center bg-taiga-gray-50 px-6 py-2 rounded-sm text-primary-600 font-medium shadow-md hover:shadow-xl"
+      >
+        Submit
+      </button>
+    </form></div>
+</div>
