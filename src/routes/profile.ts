@@ -15,9 +15,7 @@ export const profileRoutes = Router();
 profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const id: string = (req.session as any).passport.user;
   const user = await getUser(id);
-  console.log("user try to access"+user!.discordName)
-  //userUtils.checkOldUser("test")
-  //userUtils.checkCrowdCastEmailjson("test")
+  console.log("user try to access"+user!.discordUsername)
   if (!user) return res.render("500");
 
   const insertedTime = new Date(user.insertedAt).getTime() / 1000;

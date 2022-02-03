@@ -21,7 +21,7 @@ export function checkOldUser(adress:string) {
 export function checkCrowdCastPartecipant(adress:string) {
     for(var i = 0;i< crowdloanPartecipants.length;i++) {
         //console.log(crowdloanPartecipants[i].address)
-        if(crowdloanPartecipants[i].address == adress)return true;
+        if(crowdloanPartecipants[i].account == adress)return true;
     }
     return false;
 }
