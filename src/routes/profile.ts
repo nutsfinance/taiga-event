@@ -1,5 +1,6 @@
 import { Router, Request, Response } from "express";
 import { getUser } from "../user/controller";
+const userUtils = require("../user/usersUtils");
 
 const ensureLoggedIn = (req: Request, res: Response, next: any) => {
   if (req.isAuthenticated()) {
@@ -15,6 +16,8 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const id: string = (req.session as any).passport.user;
   const user = await getUser(id);
   console.log("user try to access"+user!.discordName)
+  //userUtils.checkOldUser("test")
+  //userUtils.checkCrowdCastEmailjson("test")
   if (!user) return res.render("500");
 
   const insertedTime = new Date(user.insertedAt).getTime() / 1000;
@@ -24,9 +27,11 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   }
 
   const inKaruraSnapshot = user.inKaruraSnapshot;
-  const crowdcastParticipant = user.crowdcastParticipant;
+  const crowdcastParticipant = user.karuraCrowdLoanAddress;
   const mission1Complete = user.mission1Complete;
   const mission2Complete = user.mission2Complete;
+
+
 
   let role = "None";
 
@@ -35,11 +40,26 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   } else if (user.xp >= 225) {
     role = "Camper";
   }
+  console.log(user.crowdcastParticipant)
+
+  if(userUtils.checkOldUser(user!.karuraAddress)) {
+    res.render("profile", {
+      username: user.discordUsername,
+      inOldUsers: true,
+      inKaruraSnapshot: false,
+      crowdcastParticipant: false,
+      mission1Complete,
+      mission2Complete,
+      role
+    });
+    return
+  }
 
   res.render("profile", {
-    username: user.discordUsername,
-    inKaruraSnapshot: inKaruraSnapshot ?? false,
-    crowdcastParticipant: crowdcastParticipant ?? false,
+    username: user.discsordUsername,
+    inOldUsers: false,
+    inKaruraSnapshot: userUtils.checkKaruraUser(user!.karuraAddress),
+    crowdcastParticipant: userUtils.checkCrowdCastPartecipant(user!.karuraCrowdLoanAddress),
     mission1Complete,
     mission2Complete,
     role

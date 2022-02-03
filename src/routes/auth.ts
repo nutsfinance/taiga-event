@@ -20,6 +20,6 @@ authRoutes.get(
   }),
   (_req, res) => {
     console.log("test")
-    res.redirect("/profile");
+    res.redirect("/form");
   }
 );
