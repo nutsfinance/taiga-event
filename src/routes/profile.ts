@@ -38,10 +38,8 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   } else if (user.xp >= 225) {
     role = "Camper";
   }
-  console.log(user.discordUsername)
-  console.log(user!.id)
 
-  if(userUtils.checkOldUser(user!.karuraAddress, user!.discordUsername)) {
+  if(userUtils.checkOldUser(user!.karuraAddress, user!.id)) {
     res.render("profile", {
       username: user.discordUsername,
       inOldUsers: true,
