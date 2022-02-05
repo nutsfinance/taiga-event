@@ -10,12 +10,13 @@ export function checkKaruraUser(adress:string) {
     return false;
 }
 
-export function checkOldUser(adress:string) {
+export function checkOldUser(adress:string, discoId:string) {
     for(var i = 0;i< oldUsers.length;i++){
         //console.log(oldUsers[i].Verified_Karura_Address);
         if(oldUsers[i].Verified_Karura_Address == adress)return true;
-    }
+        if(oldUsers[i].Discord_ID == discoId)return true;
     return false;
+    }
 }
 
 export function checkCrowdCastPartecipant(adress:string) {
