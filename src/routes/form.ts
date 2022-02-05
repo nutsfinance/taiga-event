@@ -2,6 +2,10 @@ import { Router, Request, Response } from "express";
 import { Keyring } from "@polkadot/keyring";
 import { getUser, updateUser } from "../user/controller";
 
+const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
 const keyring = new Keyring();
 
 const ensureLoggedIn = (req: Request, res: Response, next: any) => {
@@ -76,7 +80,16 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
     });
   }
 });
-
+let date: Date = new Date();
+date: date.getUTCDate();
 formRoutes.get("/success", ensureLoggedIn, (_req, res) => {
-  res.render("success");
+  res.render("success", {
+    year: date.getUTCFullYear(),
+    day: date.getUTCDay(),
+    hours: date.getUTCHours(),
+    month: monthNames[date.getMonth()],
+    min: date.getUTCMinutes(),
+    sec: date.getUTCSeconds
+
+  });
 });
