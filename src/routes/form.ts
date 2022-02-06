@@ -46,7 +46,8 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   let address: string | undefined;
   try {
     address = keyring.encodeAddress(karuraAddress, 8);
-    if(karuraAddress != "" && karuraAddress != null) {
+
+    if(karuraAddress != "" && karuraAddress != null && karuraAddress != undefined) {
     const updateRes = await updateUser(
       userId,
       username,
