@@ -8,6 +8,8 @@ const monthNames = ["January", "February", "March", "April", "May", "June",
 
 const keyring = new Keyring();
 
+
+
 const ensureLoggedIn = (req: Request, res: Response, next: any) => {
   if (req.isAuthenticated()) {
     next();
@@ -81,6 +83,12 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   }
 });
 let date: Date = new Date();
+const insertedTime = new Date().getTime() / 1000;
+
+if (insertedTime > 1644153298) {
+  res.render("profile-too-late");
+  return;
+}
 date: date.getUTCDate();
 formRoutes.get("/success", ensureLoggedIn, (_req, res) => {
   res.render("success", {
