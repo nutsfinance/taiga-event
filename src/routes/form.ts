@@ -40,12 +40,6 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   const karuraCrowdLoanAddress = req.body.karuraCrowdLoanAddress;
   const karuraAddress = req.body.karuraAddress;
   const telegramUser = req.body.telegramUser;
-
-  console.log("check");
-  if ((new Date().getTime() / 1000) > 1644153298) {
-      res.render("profile-too-late");
-  }
-
   let address: string | undefined;
   // let mandalaAddress: string | undefined;
   try {
@@ -91,7 +85,14 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
 });
 let date: Date = new Date();
 date: date.getUTCDate();
+
 formRoutes.get("/success", ensureLoggedIn, (_req, res) => {
+
+  console.log("check");
+  if ((new Date().getTime() / 1000) > 1644153298) {
+      res.render("profile-too-late");
+      return;
+  }
   res.render("success", {
     year: date.getUTCFullYear(),
     day: date.getUTCDay(),
@@ -99,6 +100,5 @@ formRoutes.get("/success", ensureLoggedIn, (_req, res) => {
     month: monthNames[date.getMonth()],
     min: date.getUTCMinutes(),
     sec: date.getUTCSeconds
-
   });
 });
