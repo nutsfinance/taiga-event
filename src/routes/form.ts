@@ -1,13 +1,14 @@
 import { Router, Request, Response } from "express";
 import { Keyring } from "@polkadot/keyring";
 import { getUser, updateUser } from "../user/controller";
+import { Int32 } from "mongodb";
 
 const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
 
 const keyring = new Keyring();
-
+const deadline:Number = Number(process.env["DEADLINE"]);
 
 
 const ensureLoggedIn = (req: Request, res: Response, next: any) => {
@@ -23,7 +24,7 @@ export const formRoutes = Router();
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
-if ((new Date().getTime() / 1000) > 1644153298) {
+if ((new Date().getTime() / 1000) > deadline) {
   res.render("profile-too-late");
   return;
 }
