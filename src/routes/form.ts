@@ -8,7 +8,8 @@ const monthNames = ["January", "February", "March", "April", "May", "June",
 ];
 
 const keyring = new Keyring();
-const deadline:Number = Number(process.env["DEADLINE"]);
+console.log(process.env["DEADLINE"]);
+const deadline:Number = Number(process.env["DEADLINE"]?.toString());
 
 
 const ensureLoggedIn = (req: Request, res: Response, next: any) => {
