@@ -24,6 +24,7 @@ export const formRoutes = Router();
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
+  console.log("deadlibe"+deadline)
 if ((new Date().getTime() / 1000) > deadline) {
   res.render("profile-too-late");
   return;
