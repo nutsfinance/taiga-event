@@ -40,6 +40,8 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   const karuraCrowdLoanAddress = req.body.karuraCrowdLoanAddress;
   const karuraAddress = req.body.karuraAddress;
   const telegramUser = req.body.telegramUser;
+
+  console.log("check");
   if ((new Date().getTime() / 1000) > 1644153298) {
       res.render("profile-too-late");
   }
