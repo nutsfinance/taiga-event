@@ -23,6 +23,7 @@ function setupPassport() {
         scope: SCOPES,
       },
       (_accessToken, _refreshToken, profile, cb) => {
+        console.log("chiave di ricerca"+profile.id);
         getOrCreateUser(
           {
             id: profile.id,

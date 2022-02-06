@@ -13,8 +13,7 @@ export async function getUser(id: string) {
   }
 }
 
-export async function getOrCreateUser(
-  { id, discordUsername }: User,
+export async function getOrCreateUser({ id, discordUsername }: User,
   cb: (err: Error | null, user: User | undefined) => void
 ) {
   try {
