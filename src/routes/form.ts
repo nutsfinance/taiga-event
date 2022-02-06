@@ -8,8 +8,7 @@ const monthNames = ["January", "February", "March", "April", "May", "June",
 ];
 
 const keyring = new Keyring();
-console.log(process.env["DEADLINE"]);
-const deadline:Number = Number(process.env["DEADLINE"]?.toString());
+const deadline:Number = +process.env["DEADLINE"];
 
 
 const ensureLoggedIn = (req: Request, res: Response, next: any) => {
@@ -26,6 +25,7 @@ formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
   console.log("deadlibe"+deadline)
+  console.log(process.env["DEADLINE"]);
 if ((new Date().getTime() / 1000) > deadline) {
   res.render("profile-too-late");
   return;
