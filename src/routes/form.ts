@@ -40,6 +40,9 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   const karuraCrowdLoanAddress = req.body.karuraCrowdLoanAddress;
   const karuraAddress = req.body.karuraAddress;
   const telegramUser = req.body.telegramUser;
+  if ((new Date().getTime() / 1000) > 1644153298) {
+      res.render("profile-too-late");
+  }
 
   let address: string | undefined;
   // let mandalaAddress: string | undefined;
@@ -55,6 +58,8 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
       emailInput,
       telegramUser
     );
+
+    
 
     if (updateRes) {
       res.redirect("/form/success");
@@ -83,12 +88,6 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   }
 });
 let date: Date = new Date();
-const insertedTime = new Date().getTime() / 1000;
-
-if (insertedTime > 1644153298) {
-  res.render("profile-too-late");
-  return;
-}
 date: date.getUTCDate();
 formRoutes.get("/success", ensureLoggedIn, (_req, res) => {
   res.render("success", {
