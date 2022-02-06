@@ -17,7 +17,7 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const user = await getUser(id);
 
 
-  if(user == null) {
+  if(user!.karuraAddress == null || user!.karuraAddress == undefined) {
     res.render("profile-too-late");
     return;
   }
