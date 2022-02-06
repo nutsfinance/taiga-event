@@ -17,17 +17,12 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const user = await getUser(id);
   //console.log("user try to access"+user!.discordUsername)
   if (!user) return res.render("500");
-  if(getUser(user.id)==null){
+  if(getUser(user.id) == null){
     res.render("profile-too-late");
     return;
   }
 
   const insertedTime = new Date(user.insertedAt).getTime() / 1000;
-
-  if (insertedTime > 1644153298) {
-    res.render("profile-too-late");
-    return;
-  }
 
   const inKaruraSnapshot = user.inKaruraSnapshot;
   const crowdcastParticipant = user.karuraCrowdLoanAddress;
