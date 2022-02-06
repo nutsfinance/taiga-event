@@ -23,7 +23,7 @@ export const formRoutes = Router();
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
-if ((new Date().getTime() / 1000) > 1644162071) {
+if ((new Date().getTime() / 1000) > 1644159919) {
   res.render("profile-too-late");
   return;
 }
@@ -46,8 +46,6 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   let address: string | undefined;
   try {
     address = keyring.encodeAddress(karuraAddress, 8);
-    console.log("cristo"+karuraAddress)
-    if(karuraAddress != "" && karuraAddress != null && karuraAddress != undefined) {
     const updateRes = await updateUser(
       userId,
       username,
@@ -56,7 +54,6 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
       emailInput,
       telegramUser
     );
-    
 
     
 
@@ -72,7 +69,6 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
         error: "Error Submitting Form",
       });
     }
-  }
   } catch (error) {
     console.error(error);
     const errorMessage = `Invalid ${!address ? "Karura" : "Mandala"} Address`;

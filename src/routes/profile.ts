@@ -15,21 +15,19 @@ export const profileRoutes = Router();
 profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const id: string = (req.session as any).passport.user;
   const user = await getUser(id);
-  //console.log("user try to access"+user!.discordUsername)
-  if (!user) return res.render("500");
-  if(getUser(user.id) == null){
+
+
+  if(user == null) {
     res.render("profile-too-late");
     return;
   }
+  if (!user) return res.render("500");
 
   const insertedTime = new Date(user.insertedAt).getTime() / 1000;
-
   const inKaruraSnapshot = user.inKaruraSnapshot;
   const crowdcastParticipant = user.karuraCrowdLoanAddress;
   const mission1Complete = user.mission1Complete;
   const mission2Complete = user.mission2Complete;
-
-
 
   let role = "None";
 
