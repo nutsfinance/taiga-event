@@ -19,6 +19,7 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   if (!user) return res.render("500");
 
   const insertedTime = new Date(user.insertedAt).getTime() / 1000;
+  
   if (insertedTime > 1641772799) {
     //res.render("profile-too-late");
     //return;

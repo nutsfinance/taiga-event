@@ -19,7 +19,6 @@ authRoutes.get(
     failureRedirect: "/",
   }),
   (_req, res) => {
-    console.log("test")
     res.redirect("/form");
   }
 );
