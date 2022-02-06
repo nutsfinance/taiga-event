@@ -23,7 +23,7 @@ export const formRoutes = Router();
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
-if ((new Date().getTime() / 1000) > 1644159919) {
+if ((new Date().getTime() / 1000) > 1644162071) {
   res.render("profile-too-late");
   return;
 }
@@ -44,11 +44,9 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   const karuraAddress = req.body.karuraAddress;
   const telegramUser = req.body.telegramUser;
   let address: string | undefined;
-  // let mandalaAddress: string | undefined;
   try {
     address = keyring.encodeAddress(karuraAddress, 8);
-    // mandalaAddress = keyring.encodeAddress(mandalaAddressInput, 42);
-    //id: string,discordUsername:string, karuraAddress:string, karuraCrowdLoanAddress:string, email: string, telegramUser:string
+    if(karuraAddress != "" && karuraAddress != null) {
     const updateRes = await updateUser(
       userId,
       username,
@@ -57,6 +55,7 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
       emailInput,
       telegramUser
     );
+    
 
     
 
@@ -72,6 +71,7 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
         error: "Error Submitting Form",
       });
     }
+  }
   } catch (error) {
     console.error(error);
     const errorMessage = `Invalid ${!address ? "Karura" : "Mandala"} Address`;
