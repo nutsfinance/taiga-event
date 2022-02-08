@@ -6,6 +6,9 @@
 .h-screen{
     height: 130vh!important;
 }
+.required {
+    color: red;
+}
 
 @tailwind base;
 @tailwind components;
