@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: taiga-event
+  labels:
+    app.kubernetes.io/name: taiga-event
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: taiga-event
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: taiga-event
+    spec:
+      restartPolicy: Always
+      containers:
+        - name: taiga-event
+          image: 343749756837.dkr.ecr.ap-southeast-1.amazonaws.com/taiga-event:prod
+          imagePullPolicy: Always
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 4000
+            initialDelaySeconds: 90
+            timeoutSeconds: 20
+            periodSeconds: 5
+            failureThreshold: 3
+          readinessProbe:
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            httpGet:
+              path: /
+              port: 4000
+          resources:
+            requests:
+              memory: "4Gi"
+              cpu: "500m"
+            limits:
+              memory: "4Gi"
+              cpu: "2"
