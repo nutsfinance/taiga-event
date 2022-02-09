@@ -93,7 +93,11 @@
           name="telegramUser"
           type="telegramUser"
           placeholder="Telegram Username"
-          value="@{{telegramUser}}"
+          {{#if telegramUser}}
+          value="{{telegramUser}}"
+          {{else}}
+          value="@"
+          {{/if}}
         />
         <div class="text-taiga-gray-50 text-sm">Input the Telegram username which you joined Taiga Official Community Telegram group.</div>
       </div>
