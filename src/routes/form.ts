@@ -28,11 +28,11 @@ if ((new Date().getTime() / 1000) > 1644163128) {
   //return;
 }
   res.render("form", {
-    username: user!.discordUsername,
-    karuraAddress: user!.karuraAddress,
-    karuraCrowdLoanAddress: user!.karuraCrowdLoanAddress,
-    email: user!.email,
-    telegramUser: user!.telegramUser,
+    username: user!.discordUsername == null ? " " : user!.discordUsername ,
+    karuraAddress: user!.karuraAddress == null ? " " : user!.karuraAddress ,
+    karuraCrowdLoanAddress: user!.karuraCrowdLoanAddress == null ? " " : user!.karuraCrowdLoanAddress,
+    email: user!.email == null ? " " : user!.email,
+    telegramUser: user!.telegramUser == null ? " " : user!.telegramUser,
   });
 });
 
