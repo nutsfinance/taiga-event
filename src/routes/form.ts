@@ -25,17 +25,27 @@ formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   console.log("apertura pagina"+startTime);
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
-if ((new Date().getTime() / 1000) > 1644163128) {
-  //res.render("profile-too-late");
-  //return;
-}
-  res.render("form", {
-    username: user!.discordUsername == null ? " " : user!.discordUsername ,
-    karuraAddress: user!.karuraAddress == null ? " " : user!.karuraAddress ,
-    karuraCrowdLoanAddress: user!.karuraCrowdLoanAddress == null ? " " : user!.karuraCrowdLoanAddress,
-    email: user!.email == null ? " " : user!.email,
-    telegramUser: user!.telegramUser == null ? " " : user!.telegramUser,
-  });
+  if ((new Date().getTime() / 1000) > 1644163128) {
+    //res.render("profile-too-late");
+    //return;
+  }
+  if (user) {
+    res.render("form", {
+      username: user!.discordUsername,
+      karuraAddress: user!.karuraAddress,
+      karuraCrowdLoanAddress: user!.karuraCrowdLoanAddress,
+      email: user!.email,
+      telegramUser: user!.telegramUser,
+    });
+  } else {
+    res.render("form", {
+      username: "",
+      karuraAddress: "",
+      karuraCrowdLoanAddress: "",
+      email: "",
+      telegramUser: "",
+    });
+  }
 });
 
 formRoutes.post("/", ensureLoggedIn, async (req, res) => {
@@ -68,7 +78,7 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
       telegramUser
     );
 
-    
+
 
     if (updateRes) {
       res.redirect("/form/success");
