@@ -15,27 +15,16 @@ export const profileRoutes = Router();
 profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const id: string = (req.session as any).passport.user;
   const user = await getUser(id);
-
-
-  if(1 == 1){//user!.karuraAddress == null || user!.karuraAddress == undefined) {
-    res.render("profile-too-late");
-    return;
-  }
   if (!user) return res.render("500");
 
-  const insertedTime = new Date(user.insertedAt).getTime() / 1000;
+  //const insertedTime = new Date(user.insertedAt).getTime() / 1000;
+  let userXp = userUtils.getUserXp(user!.id);
   const inKaruraSnapshot = user.inKaruraSnapshot;
   const crowdcastParticipant = user.karuraCrowdLoanAddress;
-  const mission1Complete = user.mission1Complete;
-  const mission2Complete = user.mission2Complete;
-
-  let role = "None";
-
-  if (user.xp >= 1150) {
-    role = "Trekker";
-  } else if (user.xp >= 225) {
-    role = "Camper";
-  }
+  if (userXp == null) return res.render("500");
+  let mission1Complete = userXp.emailMission == 0 ? false : true;
+  let mission2Complete = userXp.telegramMission == 0 ? false : true;
+  let role = userXp.Role;
 
   if(userUtils.checkOldUser(user!.karuraAddress, user!.id)) {
     res.render("profile", {

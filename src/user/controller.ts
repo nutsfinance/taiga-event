@@ -1,7 +1,7 @@
 import { User } from "./user";
 import { usersCollection } from "../db";
-import corwcastEmails from "../../crowdcast-emails.json";
-import karuraSnapshot from "../../karura-users.json";
+import corwcastEmails from "../../json/crowdcast-emails.json";
+import karuraSnapshot from "../../json/karura-users.json";
 import axios from "axios";
 
 export async function getUser(id: string) {

@@ -21,10 +21,10 @@ const ensureLoggedIn = (req: Request, res: Response, next: any) => {
 export const formRoutes = Router();
 
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
-  if ((new Date().getTime() / 1000) > 1644163128) {
-    res.render("profile-too-late");
-    return;
-  }
+  // if ((new Date().getTime() / 1000) > 1644163128) {
+  //   //res.render("profile-too-late");
+  //   return;
+  // }
   startTime = performance.now()
   console.log("apertura pagina"+startTime);
   const userId = (req.session as any).passport.user;
