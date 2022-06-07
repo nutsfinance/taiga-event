@@ -48,19 +48,14 @@
           placeholder="Acala address"
           value="{{acalaAddress}}"
         />
-        <div class="text-taiga-gray-50 text-sm">Karura addresses with on-chain
-          transactions utilizing Karura DeFi apps before Block number 1168113(12/23/2021 23:00 UTC) are eligible
-          for rewards during "Explore the magical trail" event and will receive an
-          airdrop. New Karura users can also qualify for the airdrop by
-          completing additional missions outlined in the Taiga Discord. Need a
-          new Karura address? See the
+        <div class="text-taiga-gray-50 text-sm">Please input the acala address that you have interacted with Tapio protocol on Acala dApp
           <a
             class="underline"
             href="https://pale-broccoli-c54.notion.site/Connect-wallet-c7e1e331c6fe488c83e08bbf30fe9781"
             target="_blank"
           >guide</a>.</div>
       </div>
-      <label for="email" class="text-taiga-gray-50 font-medium">Submit Email
+      <label for="email" class="text-taiga-gray-50 font-medium">Email
         </label>
       <div class="flex flex-col gap-2 all_width">
         <input
@@ -70,10 +65,10 @@
           placeholder="Subscribed email"
           value="{{email}}"
         />
-        <div class="text-taiga-gray-50 text-sm">Input your email address subscribed to Taiga Substack.</div>
+        <div class="text-taiga-gray-50 text-sm">Please input the email address that you use to subscribe Tapio's newsletter</div>
       </div>
 
-      <label for="twitterAddress" class="text-taiga-gray-50 font-medium">Twitter address
+      <label for="twitterAddress" class="text-taiga-gray-50 font-medium">Tweet link
         </label>
       <div class="flex flex-col gap-2 all_width">
         <input
@@ -83,9 +78,9 @@
           placeholder="Address twitter"
           value="{{addressTwitter}}"
         />
-        <div class="text-taiga-gray-50 text-sm"></div>
+        <div class="text-taiga-gray-50 text-sm">Please input the quote tweet link about our tDOT(https: )</div>
       </div>
-      <div class="g-recaptcha" data-sitekey="6LevUmUUAAAAAFjzDUIfd8aSVMFbWiPFyvcTyMsj"></div>
+      {{!-- <div class="g-recaptcha" data-sitekey="6LevUmUUAAAAAFjzDUIfd8aSVMFbWiPFyvcTyMsj"></div> --}}
     <button
 
         type="submit"
@@ -96,7 +91,7 @@
     </form></div>
 </div>
 <script>
-document.getElementById("commentform").onsubmit = function(e){
+/*document.getElementById("commentform").onsubmit = function(e){
                 e.preventDefault()
 
                 //Get the captcha response
@@ -106,6 +101,6 @@ document.getElementById("commentform").onsubmit = function(e){
                 //call to backend to check response 
                 //fetch("/checkResponse/"encodeURI(captchaResponse), {method: "POST"})
                 //.then(()=>location.reload())
-            }
+            }\*
 
 </script>   
