@@ -1,8 +1,15 @@
 export interface User {
   discordUsername?: string;
-  karuraAddress?: string;
-  karuraCrowdLoanAddress?: string;
+  acalaAddress?: string;
   email?: string;
-  telegramUser?: string;
-  id?: string;
+  discordId?: string;
+  twitterAddress?: string;
+  tweetLink?: string,
+  emailMission?: string,
+  twitterMission?: string,
+  missionXp?: Number,
+  existingXp?: Number,
+  totalXp?: Number,
+  inServer?: Number,
+  role?: string
 }

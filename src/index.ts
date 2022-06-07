@@ -26,7 +26,7 @@ function setupPassport() {
         console.log("chiave di ricerca"+profile.id);
         getOrCreateUser(
           {
-            id: profile.id,
+            discordId: profile.id,
             discordUsername: `${profile.username}#${profile.discriminator}`,
           },
           (err, user) => {
@@ -38,7 +38,7 @@ function setupPassport() {
   );
 
   passport.serializeUser((user: User, done) => {
-    done(null, user.id);
+    done(null, user.discordId);
   });
 
   passport.deserializeUser((id: string, done) => {

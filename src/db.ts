@@ -9,8 +9,8 @@ export async function connect() {
 
   try {
     await client.connect();
-    const db = client.db("taiga-event");
-    usersCollection = db.collection("users");
+    const db = client.db("taigaEventMongo");
+    usersCollection = db.collection("user");
   } catch {
     console.error("Unable to connect to DB");
   }

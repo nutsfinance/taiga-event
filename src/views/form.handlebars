@@ -16,6 +16,7 @@
       </div>
     {{/if}}
     <form
+    id="commentform"
       method="POST"
       action="/form"
       class="flex flex-col justify-center items-start gap-5"
@@ -37,15 +38,15 @@
         <div class="text-xs lg:text-sm text-taiga-gray-100">Note: this was
           pulled from your Discord login</div>
       </div>
-      <label for="karuraAddress" class="text-taiga-gray-50 font-medium">Karura Address (Required)<span class="required">*</span></label>
+      <label for="acalaAddress" class="text-taiga-gray-50 font-medium">AcalaAddress Address (Required)<span class="required">*</span></label>
       <div class="flex flex-col gap-2">
         <input
           class="w-full h-12 pl-2 rounded-md shadow-md text-taiga-gray-900 all_width"
-          name="karuraAddress"
+          name="acalaAddress"
           type="text"
           required
-          placeholder="Karura address"
-          value="{{karuraAddress}}"
+          placeholder="Acala address"
+          value="{{acalaAddress}}"
         />
         <div class="text-taiga-gray-50 text-sm">Karura addresses with on-chain
           transactions utilizing Karura DeFi apps before Block number 1168113(12/23/2021 23:00 UTC) are eligible
@@ -59,20 +60,7 @@
             target="_blank"
           >guide</a>.</div>
       </div>
-      <label for="karuraCrowdLoanAddress" class="text-taiga-gray-50 font-medium">Karura crowdloan address</label>
-      <div class="flex flex-col gap-2 all_width">
-        <input
-          class="w-full h-12 pl-2 rounded-md shadow-md text-taiga-gray-900"
-          name="karuraCrowdLoanAddress"
-          type="text"
-          placeholder="Karura crowdloan address"
-          value="{{karuraCrowdLoanAddress}}"
-        />
-        <div class="text-xs lg:text-sm text-taiga-gray-100">
-           <div class="text-taiga-gray-50 text-sm">Input your Karura address which you participated in the Karura crowdloan.</div>
-        </div>
-      </div>
-      <label for="email" class="text-taiga-gray-50 font-medium">Newsletter subscribed email
+      <label for="email" class="text-taiga-gray-50 font-medium">Submit Email
         </label>
       <div class="flex flex-col gap-2 all_width">
         <input
@@ -85,23 +73,21 @@
         <div class="text-taiga-gray-50 text-sm">Input your email address subscribed to Taiga Substack.</div>
       </div>
 
-      <label for="telegramUser" class="text-taiga-gray-50 font-medium">Telegram username
+      <label for="twitterAddress" class="text-taiga-gray-50 font-medium">Twitter address
         </label>
       <div class="flex flex-col gap-2 all_width">
         <input
           class="w-full h-12 pl-2 rounded-md shadow-md text-taiga-gray-900"
-          name="telegramUser"
-          type="telegramUser"
-          placeholder="Telegram Username"
-          {{#if telegramUser}}
-          value="{{telegramUser}}"
-          {{else}}
-          value="@"
-          {{/if}}
+          name="addressTwitter"
+          type="addressTwitter"
+          placeholder="Address twitter"
+          value="{{addressTwitter}}"
         />
-        <div class="text-taiga-gray-50 text-sm">Input the Telegram username which you joined Taiga Official Community Telegram group.</div>
+        <div class="text-taiga-gray-50 text-sm"></div>
       </div>
-      <button
+      <div class="g-recaptcha" data-sitekey="6LevUmUUAAAAAFjzDUIfd8aSVMFbWiPFyvcTyMsj"></div>
+    <button
+
         type="submit"
         class="self-center bg-taiga-gray-50 px-6 py-2 rounded-sm text-primary-600 font-medium shadow-md hover:shadow-xl"
       >
@@ -109,3 +95,17 @@
       </button>
     </form></div>
 </div>
+<script>
+document.getElementById("commentform").onsubmit = function(e){
+                e.preventDefault()
+
+                //Get the captcha response
+                var formData = new FormData(document.getElementById("commentform"))
+                var captchaResponse = formData.get("g-recaptcha-response")
+                console.log(captchaResponse);
+                //call to backend to check response 
+                //fetch("/checkResponse/"encodeURI(captchaResponse), {method: "POST"})
+                //.then(()=>location.reload())
+            }
+
+</script>   

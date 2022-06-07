@@ -1,6 +1,6 @@
 import { Router, Request, Response } from "express";
 import { Keyring } from "@polkadot/keyring";
-import { getUser, updateUser } from "../user/controller";
+import { getByAcalaAddress, getByTwitterAddress, getUser, updateUser, getByEmail } from "../user/controller";
 import { Int32 } from "mongodb";
 var startTime = performance.now();
 const monthNames = ["January", "February", "March", "April", "May", "June",
@@ -21,22 +21,15 @@ const ensureLoggedIn = (req: Request, res: Response, next: any) => {
 export const formRoutes = Router();
 
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
-  // if ((new Date().getTime() / 1000) > 1644163128) {
-  //   //res.render("profile-too-late");
-  //   return;
-  // }
-  startTime = performance.now()
-  console.log("apertura pagina"+startTime);
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
-  
+  console.log("testtest="+userId);
   if (user) {
     res.render("form", {
       username: user!.discordUsername,
-      karuraAddress: user!.karuraAddress,
-      karuraCrowdLoanAddress: user!.karuraCrowdLoanAddress,
+      acalaAddress: user!.acalaAddress,
       email: user!.email,
-      telegramUser: user!.telegramUser,
+      addressTwitter: user!.twitterLink,
     });
   } else {
     res.render("form", {
@@ -51,35 +44,43 @@ formRoutes.get("/", ensureLoggedIn, async (req, res) => {
 
 formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   console.log("chiamata submit");
-  var endTime = performance.now()
-  var totalime = endTime - startTime;
-  console.log("total time "+totalime);
-  var timeOver = false;
-  if(totalime < 4500){
-    console.log("timeovered")
-    timeOver = true;
-  }
+  
+ 
   const userId = (req.session as any).passport.user;
   const username = req.body.username;
   const emailInput = req.body.email;
-  const karuraCrowdLoanAddress = req.body.karuraCrowdLoanAddress;
-  const karuraAddress = req.body.karuraAddress;
-  const telegramUser = req.body.telegramUser;
+  const acalaAddress = req.body.acalaAddress;
+  const twitterLink = req.body.addressTwitter;
   let address: string | undefined;
+  //check acalAddress and username ar not empty
+  if(username == null || username == "" || acalaAddress == null || acalaAddress == "")return res.render("unsuccess", {});
+
+  //check if this data are already inserted
+  if(acalaAddress != "" && acalaAddress != null){
+    let check1 = await getByAcalaAddress(acalaAddress)
+    if(check1 != null) return res.render("form", {  username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "Error Submitting Form or acalaAddress already exhist" });
+  }
+
+  if(twitterLink != "" && twitterLink != null){
+    let check2 = await getByTwitterAddress(twitterLink)
+    if(check2 != null) return res.render("form", { username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "Error Submitting Form or twitterAddress already exhist" });
+  }
+
+  if(emailInput != "" && emailInput != null){
+    let check3 = await getByEmail(emailInput)
+    if(check3 != null) return res.render("form", { username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "Error Submitting Form or emailAddress already exhist" });
+  }
+
+  // if we are here the data is ok
   try {
-    //address = keyring.encodeAddress(karuraAddress, 8);
-    address = karuraAddress;
-    if(!timeOver){
+    address = acalaAddress;
     const updateRes = await updateUser(
       userId,
       username,
-      karuraAddress,
-      karuraCrowdLoanAddress,
-      emailInput,
-      telegramUser
+      acalaAddress,
+      twitterLink,
+      emailInput
     );
-
-
 
     if (updateRes) {
       res.redirect("/form/success");
@@ -87,25 +88,21 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
       res.render("form", {
         username: username,
         email: emailInput,
-        karuraAddress: karuraAddress,
-        karuraCrowdLoanAddress: karuraCrowdLoanAddress,
-        telegramUser: telegramUser,
-        error: "Error Submitting Form",
+        acalaAddress: acalaAddress,
+        addressTwitter: twitterLink,
+        error: "Error Submitting Form or user already exhist",
       });
     }
-  }else{
-      res.redirect("/form/unsuccess");
-  }
+  
   } catch (error) {
     console.error(error);
-    const errorMessage = `Invalid ${!address ? "Karura" : "Mandala"} Address`;
+    const errorMessage = `Invalid ${!address}  Address`;
 
     res.render("form", {
       username: username,
       email: emailInput,
-      karuraAddress: karuraAddress,
-      karuraCrowdLoanAddress: karuraCrowdLoanAddress,
-      telegramUser: telegramUser,
+      acalaAddress: acalaAddress,
+      addressTwitter: twitterLink,
       error: errorMessage,
     });
   }
