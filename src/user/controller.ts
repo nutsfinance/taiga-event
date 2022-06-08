@@ -49,7 +49,7 @@ export async function getOrCreateUser({ discordId, discordUsername }: User,
     if (user) {
       return cb(null, {
         discordId: (user as User).discordId,
-        discordUsername: discordUsername,
+        discordUsername: (user as User).discordUsername,
       });
     } else {
       const insertedAt = new Date();

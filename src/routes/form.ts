@@ -52,23 +52,24 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   const acalaAddress = req.body.acalaAddress;
   const twitterLink = req.body.addressTwitter;
   let address: string | undefined;
+
   //check acalAddress and username ar not empty
   if(username == null || username == "" || acalaAddress == null || acalaAddress == "")return res.render("unsuccess", {});
 
   //check if this data are already inserted
   if(acalaAddress != "" && acalaAddress != null){
     let check1 = await getByAcalaAddress(acalaAddress)
-    if(check1 != null) return res.render("form", {  username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "Error Submitting Form or acalaAddress already exhist" });
+    if(check1?.discordId != userId && check1 != null) return res.render("form", {  username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "Error Submitting Form or acalaAddress already exhist" });
   }
 
   if(twitterLink != "" && twitterLink != null){
     let check2 = await getByTwitterAddress(twitterLink)
-    if(check2 != null) return res.render("form", { username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "Error Submitting Form or twitterAddress already exhist" });
+    if(check2?.discordId != userId && check2 != null) return res.render("form", { username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "Error Submitting Form or twitterAddress already exhist" });
   }
 
   if(emailInput != "" && emailInput != null){
     let check3 = await getByEmail(emailInput)
-    if(check3 != null) return res.render("form", { username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "Error Submitting Form or emailAddress already exhist" });
+    if(check3?.discordId != userId && check3 != null) return res.render("form", { username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "Error Submitting Form or emailAddress already exhist" });
   }
 
   // if we are here the data is ok
