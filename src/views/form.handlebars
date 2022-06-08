@@ -80,27 +80,18 @@
         />
         <div class="text-taiga-gray-50 text-sm">Please input the quote tweet link about our tDOT(https: )</div>
       </div>
-      <div class="g-recaptcha" data-sitekey="6LevUmUUAAAAAFjzDUIfd8aSVMFbWiPFyvcTyMsj"></div>
+      <div class="g-recaptcha" data-sitekey=""></div>
     <button
-
+        id="submitBtn"
         type="submit"
         class="self-center bg-taiga-gray-50 px-6 py-2 rounded-sm text-primary-600 font-medium shadow-md hover:shadow-xl"
-      >
+      disabled>
         Submit
       </button>
     </form></div>
-</div>
+</div> 
 <script>
- document.getElementById("commentform").onsubmit = function(e){
-                e.preventDefault()
-
-                //Get the captcha response
-                var formData = new FormData(document.getElementById("commentform"))
-                var captchaResponse = formData.get("g-recaptcha-response")
-                console.log(captchaResponse);
-                //call to backend to check response 
-                fetch("/checkResponse/"encodeURI(captchaResponse), {method: "POST"})
-                .then(()=>location.reload())
-            }
-
-</script>   
+  function recaptchaCallback() {
+    $('#submitBtn').removeAttr('disabled');
+  };
+</script>
