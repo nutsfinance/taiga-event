@@ -65,6 +65,16 @@
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
 
+"@polka/send-type@^0.5.0":
+  "integrity" "sha512-jGXalKihnhGQmMQ+xxfxrRfI2cWs38TIZuwgYpnbQDD4r9TkOiU3ocjAS+6CqqMNQNAu9Ul2iHU5YFRDODak2w=="
+  "resolved" "https://registry.npmjs.org/@polka/send-type/-/send-type-0.5.2.tgz"
+  "version" "0.5.2"
+
+"@polka/url@^0.5.0":
+  "integrity" "sha512-oZLYFEAzUKyi3SKnXvj32ZCEGH6RDnao7COuCVhDydMS9NrCSVXhM79VaKyP5+Zc33m0QXEd2DN3UkU7OsHcfw=="
+  "resolved" "https://registry.npmjs.org/@polka/url/-/url-0.5.0.tgz"
+  "version" "0.5.0"
+
 "@polkadot/keyring@^8.2.2":
   "integrity" "sha512-t6ZgQVC+nQT7XwbWtEhkDpiAzxKVJw8Xd/gWdww6xIrawHu7jo3SGB4QNdPgkf8TvDHYAAJiupzVQYAlOIq3GA=="
   "resolved" "https://registry.npmjs.org/@polkadot/keyring/-/keyring-8.7.1.tgz"
@@ -742,6 +752,11 @@
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
 
+"fsevents@~2.3.2":
+  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
+  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+  "version" "2.3.2"
+
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
   "resolved" "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
@@ -1115,6 +1130,14 @@
   "integrity" "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="
   "resolved" "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
   "version" "2.3.1"
+
+"polkadot@^1.0.0":
+  "integrity" "sha512-As0GwV487cEPNF8OJ7POozS5R7R6jTSUzKH0BQcGD3M7fUIECDiJK+PqVVOTLxp3ORwwzuzVj3r5FhEd4hg0ng=="
+  "resolved" "https://registry.npmjs.org/polkadot/-/polkadot-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "@polka/send-type" "^0.5.0"
+    "@polka/url" "^0.5.0"
 
 "postcss-js@^4.0.0":
   "integrity" "sha512-77QESFBwgX4irogGVPgQ5s07vLvFqWr228qZY+w6lW599cRlK/HmnlivnnVUxkjHnCu4J16PDMHcH+e+2HbvTQ=="

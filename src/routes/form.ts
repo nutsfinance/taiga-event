@@ -2,6 +2,7 @@ import { Router, Request, Response } from "express";
 import { Keyring } from "@polkadot/keyring";
 import { getByAcalaAddress, getByTwitterAddress, getUser, updateUser, getByEmail } from "../user/controller";
 import { Int32 } from "mongodb";
+
 var startTime = performance.now();
 const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
@@ -49,9 +50,16 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const username = req.body.username;
   const emailInput = req.body.email;
-  const acalaAddress = req.body.acalaAddress;
+  let acalaAddress = req.body.acalaAddress;
   const twitterLink = req.body.addressTwitter;
   let address: string | undefined;
+
+  try {
+    acalaAddress = keyring.encodeAddress(keyring.decodeAddress(acalaAddress), 10)
+  }catch(err){
+    console.log(err)
+    return res.render("unsuccess", {});
+  }
 
   //check acalAddress and username ar not empty
   if(username == null || username == "" || acalaAddress == null || acalaAddress == "")return res.render("unsuccess", {});
