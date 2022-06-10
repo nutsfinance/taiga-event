@@ -58,7 +58,7 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
     acalaAddress = keyring.encodeAddress(keyring.decodeAddress(acalaAddress), 10)
   }catch(err){
     console.log(err)
-    return res.render("unsuccess", {});
+    return res.render("form", { username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "The address inserted is invalid please try again" });
   }
 
   //check acalAddress and username ar not empty
