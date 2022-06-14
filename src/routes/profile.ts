@@ -4,11 +4,11 @@ const userUtils = require("../user/usersUtils");
 
 const ensureLoggedIn = (req: Request, res: Response, next: any) => {
   next()
-  // if (req.isAuthenticated()) {
-  //   next();
-  // } else {
-  //   res.redirect("/auth/discord");
-  // }
+  if (req.isAuthenticated()) {
+    next();
+  } else {
+    res.redirect("/auth/discord");
+  }
 };
 
 export const profileRoutes = Router();
