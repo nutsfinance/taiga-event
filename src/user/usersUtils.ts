@@ -4,11 +4,20 @@ const crowdloanPartecipants = require('../../json/crowdloanPartecipants.json') ;
 const telegramUsers = require('../../json/telegramverifiedUsers.json');
 const emailList = require('../../json/EmailList.json')
 const userXp = require('../../json/xpUsersFile.json');
+const missionTest = require("../../recaptchaServerCheck/csvjson (9).json")
 
 export function checkKaruraUser(adress:string) {
     for(var i = 0;i< karuraUsers.length;i++){
         //console.log(karuraUsers[i]);
         if(karuraUsers[i] == adress)return true;
+    }
+    return false;
+}
+
+export function checkMissionTest(adress:string) {
+    for(var i = 0;i< missionTest.length;i++){
+        //console.log(karuraUsers[i]);
+        if(missionTest[i] == adress)return true;
     }
     return false;
 }
