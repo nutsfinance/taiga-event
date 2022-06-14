@@ -26,7 +26,7 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
 
   if(mission1Complete)userXp=+100;
   if(mission2Complete)userXp=+200;
-  if(mission2Complete)userXp=+200;
+  if(mission3Complete)userXp=+200;
   if(!mission1Complete) userXp =0;
   if(!inServer) userXp = 0;
 
