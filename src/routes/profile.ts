@@ -18,7 +18,7 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const user = await getUser(id);
   
   let userXp = user?.totalXp;
-  if (userXp == null) return res.render("500");
+  //if (userXp == null) return res.render("500");
 
   res.render("profile", {
     username: user?.discsordUsername,
