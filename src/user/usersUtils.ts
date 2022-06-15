@@ -16,7 +16,7 @@ export function checkKaruraUser(adress:string) {
 
 export function checkMissionTest(adress:string) {
     for(var i = 0;i< missionTest.length;i++){
-        console.log(karuraUsers[i]);
+        console.log("cerca"+missionTest[i]);
         if(missionTest[i] == adress)return true;
     }
     return false;
