@@ -1,63 +1,46 @@
-const karuraUsers = require('../../json/karura-users.json'); 
-const oldUsers = require('../../json/old-event-users.json');
-const crowdloanPartecipants = require('../../json/crowdloanPartecipants.json') ;
-const telegramUsers = require('../../json/telegramverifiedUsers.json');
-const emailList = require('../../json/EmailList.json')
-const userXp = require('../../json/xpUsersFile.json');
-const missionTest = require("../../recaptchaServerCheck/winners.json")
+const userXp = require('../../json/oldUsersXp.json');
+const mission1Json = require("../../json/mission1Json.json")
+const mission2Json = require("../../json/mission2Json.json")
+const mission3Json = require("../../json/mission3Json.json")
+const missionIsInServer = require("../../json/missionIsInServerJson.json")
 
-export function checkKaruraUser(adress:string) {
-    for(var i = 0;i< karuraUsers.length;i++){
-        //console.log(karuraUsers[i]);
-        if(karuraUsers[i] == adress)return true;
+//acalaAddress
+export function checkMission1(adress:string) {
+    if(adress == "" || adress == null) return false;
+    for(var i = 0;i< mission1Json.length;i++) {
+        if(mission1Json[i] == adress)return true;
     }
     return false;
 }
-
-export function checkMissionTest(adress:string) {
-    for(var i = 0;i< missionTest.length;i++){
-        console.log("cerca"+missionTest[i]);
-        if(missionTest[i] == adress)return true;
+//email
+export function checkMission2(email:string) {
+    if(email == "" || email == null) return false;
+    for(var i = 0;i< mission2Json.length;i++) {
+        if(mission2Json[i] == email)return true;
     }
     return false;
 }
-
-export function checkOldUser(adress:string, discorId:string) {
-    for(var i = 0;i< oldUsers.length;i++){
-        if(oldUsers[i].Verified_Karura_Address == adress)return true;
-        if(oldUsers[i].Discord_ID == discorId)return true;
+//twitter
+export function checkMission3(twitterAddress:string) {
+    if(twitterAddress == "" || twitterAddress == null) return false;
+    for(var i = 0;i< mission3Json.length;i++) {
+        if(mission3Json[i] == twitterAddress)return true;
     }
     return false;
 }
-
-export function checkCrowdCastPartecipant(adress:string) {
-    for(var i = 0;i< crowdloanPartecipants.length;i++) {
-        //console.log(crowdloanPartecipants[i].address)
-        if(crowdloanPartecipants[i].account == adress)return true;
+//isInServer
+export function checkIsInServer(discorId:string) {
+    if(discorId == "" || discorId == null) return false;
+    for(var i = 0;i< missionIsInServer.length;i++) {
+        if(missionIsInServer[i] == discorId)return true;
     }
     return false;
 }
-
-export function checktelegramuser(name:string){
-    for(var i = 0; i < telegramUsers.length; i++){
-        if(telegramUsers[i].names.includes(name))return true
+// getoldUserXp
+export function getOldUserXp(discorId:string) {
+    if(discorId == "" || discorId == null) return 0;
+    for(var i = 0;i< userXp.length;i++){
+        if(userXp[i].DiscordID == discorId)return userXp[i].TotalXP;
     }
-    return false;
-}
-
-export function checkEmailList(email:string){
-    for(var i = 0; i < emailList.length; i++){
-        console.log(emailList[i].Email);
-        if(emailList[i].Email == email) return true
-        
-    }
-    return false;
-}
-
-export function getUserXp(id:string){
-    for(var i = 0; i < userXp.length; i++){
-        if(userXp[i].id == id) return userXp[i]
-        
-    }
-    return null;
+    return 0;
 }

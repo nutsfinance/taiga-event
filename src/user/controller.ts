@@ -1,7 +1,5 @@
 import { User } from "./user";
 import { usersCollection } from "../db";
-import corwcastEmails from "../../json/crowdcast-emails.json";
-import karuraSnapshot from "../../json/karura-users.json";
 import axios from "axios";
 
 // find by id discord
