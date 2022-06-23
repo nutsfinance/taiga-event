@@ -24,6 +24,7 @@ export const formRoutes = Router();
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
+
   console.log("testtest="+userId);
   if (user) {
     res.render("form", {
@@ -53,7 +54,7 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   let acalaAddress = req.body.acalaAddress;
   const twitterLink = req.body.addressTwitter;
   let address: string | undefined;
-
+  if(acalaAddress == "" || acalaAddress == null)return 
   try {
     acalaAddress = keyring.encodeAddress(keyring.decodeAddress(acalaAddress), 10)
   }catch(err){
