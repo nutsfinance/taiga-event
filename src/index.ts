@@ -8,7 +8,7 @@ import path from "path";
 import { User } from "./user/user";
 import { getOrCreateUser, getUser } from "./user/controller";
 import { loadEnv } from "./setup";
-import { authRoutes, formRoutes, loginRoutes, profileRoutes } from "./routes";
+import { authRoutes, formRoutes, loginRoutes, profileRoutes, profileTooLateRoutes } from "./routes";
 import { connect as dbConnect } from "./db";
 
 function setupPassport() {
@@ -62,6 +62,7 @@ function startServer() {
   app.use("/auth", authRoutes);
   app.use("/form", formRoutes);
   app.use("/profile", profileRoutes);
+  app.use("/profile-too-late", profileTooLateRoutes);
   app.use((_req, res, _next) => {
     res.statusCode = 404;
     res.render("404");
