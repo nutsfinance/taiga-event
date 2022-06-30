@@ -16,7 +16,7 @@ export const profileRoutes = Router();
 profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const id: string = (req.session as any).passport.user;
   const user = await getUser(id);
-  
+
   let userXp = 0;
   if (!user) return res.render("500");
   let oldUserXp = getOldUserXp(user!.id);
