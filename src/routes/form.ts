@@ -53,12 +53,12 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   const twitterLink = req.body.addressTwitter;
   let address: string | undefined;
   if(karuraAddress == "" || karuraAddress == null)return 
-  // try {
-  //   karuraAddress = keyring.encodeAddress(keyring.decodeAddress(karuraAddress), 10)
-  // }catch(err){
-  //   console.log(err)
-  //   return res.render("form", { username: username, email: emailInput,acalaAddress: acalaAddress,addressTwitter: twitterLink,error: "The address inserted is invalid please try again" });
-  // }
+  try {
+    karuraAddress = keyring.encodeAddress(keyring.decodeAddress(karuraAddress), 8)
+  }catch(err){
+    console.log(err)
+    return res.render("form", { username: username, email: emailInput,karuraAddress: karuraAddress,addressTwitter: twitterLink,error: "The address inserted is invalid please try again" });
+  }
 
   //check acalAddress and username ar not empty
   if(username == null || username == "" || karuraAddress == null || karuraAddress == "")return res.render("unsuccess", {});
