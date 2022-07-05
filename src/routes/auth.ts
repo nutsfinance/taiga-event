@@ -13,7 +13,7 @@ export const authRoutes = Router();
 
 authRoutes.get("/discord", alreadyLoggedIn, passport.authenticate("discord"));
 
-authRoutes.get( 
+authRoutes.get(
   "/discord/callback",
   passport.authenticate("discord", {
     failureRedirect: "/",
