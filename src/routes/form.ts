@@ -29,7 +29,7 @@ formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   if (user) {
     res.render("form", {
       username: user!.discordUsername,
-      acalaAddress: user!.acalaAddress,
+      karuraAddress: user!.karuraAddress,
       email: user!.email,
       addressTwitter: user!.twitterLink,
     });
@@ -45,9 +45,6 @@ formRoutes.get("/", ensureLoggedIn, async (req, res) => {
 });
 
 formRoutes.post("/", ensureLoggedIn, async (req, res) => {
-  
-  
- 
   const userId = (req.session as any).passport.user;
   const username = req.body.username;
   const emailInput = req.body.email;
