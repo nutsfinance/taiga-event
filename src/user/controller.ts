@@ -65,7 +65,7 @@ export async function getOrCreateUser({ discordId, discordUsername }: User,
         discordUsername,
         insertedAt,
         updatedAt: insertedAt,
-        acalaAddress: '',
+        karuraAddress: '',
         email: '',
         twitterLink: '',
         emailMission: '',
@@ -91,7 +91,7 @@ export async function getOrCreateUser({ discordId, discordUsername }: User,
   }
 }
 
-export async function updateUser(discordId: string,discordUsername:string, acalaAddress:string, twitterLink:string, email: string) {
+export async function updateUser(discordId: string,discordUsername:string, karuraAddress:string, twitterLink:string, email: string) {
   email = email.toLocaleLowerCase();
   if (usersCollection) {
     const updatedAt = new Date();
@@ -132,7 +132,7 @@ export async function updateUser(discordId: string,discordUsername:string, acala
           discordUsername,
           insertedAt,
           updatedAt,
-          acalaAddress,
+          karuraAddress,
           email,
           twitterLink,
           emailMission,
