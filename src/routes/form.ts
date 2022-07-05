@@ -45,7 +45,7 @@ formRoutes.get("/", ensureLoggedIn, async (req, res) => {
 });
 
 formRoutes.post("/", ensureLoggedIn, async (req, res) => {
-  console.log("chiamata submit");
+  
   
  
   const userId = (req.session as any).passport.user;

@@ -14,7 +14,6 @@ const ensureLoggedIn = (req: Request, res: Response, next: any) => {
 export const profileRoutes = Router();
 
 profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
-  res.render("profile-too-late");
   const id: string = (req.session as any).passport.user;
   const user = await getUser(id);
 
