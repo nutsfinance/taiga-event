@@ -20,7 +20,7 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   let userXp = 0;
   if (!user) return res.render("500");
   let oldUserXp = getOldUserXp(user!.id);
-  let mission1Complete= checkMission1(user!.acalaAddress);
+  let mission1Complete= checkMission1(user!.karuraAddress);
   let mission2Complete= checkMission2(user!.email);
   let mission3Complete= checkMission3(user!.discordId);
   let inServer = checkIsInServer(user!.discordId);
