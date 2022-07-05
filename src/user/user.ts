@@ -1,6 +1,7 @@
 export interface User {
   discordUsername?: string;
   acalaAddress?: string;
+  karuraAddress?: string;
   email?: string;
   discordId?: string;
   twitterAddress?: string;

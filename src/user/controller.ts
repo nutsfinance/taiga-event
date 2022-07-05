@@ -30,6 +30,15 @@ export async function getByAcalaAddress(id: string) {
   }
 }
 
+export async function getByKaruraAddress(id: string) {
+  if (usersCollection) {
+    const user = await usersCollection.findOne({ karuraAddress: id });
+    return user;
+  } else {
+    throw "DB not connected";
+  }
+}
+
 export async function getByEmail(id: string) {
   if (usersCollection) {
     const user = await usersCollection.findOne({ email: id });
