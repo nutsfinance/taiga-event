@@ -40,7 +40,7 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
 
   return res.render("profile", {
     username: user.discordUsername,
-    mission1Complete: mission1Complete,
+    //mission1Complete: mission1Complete,
     mission2Complete: mission2Complete,
     mission3Complete: mission3Complete,
     inServer: inServer,
