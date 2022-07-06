@@ -20,19 +20,23 @@ profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
   let userXp = 0;
   if (!user) return res.render("500");
   let oldUserXp = getOldUserXp(user!.id);
-  let mission1Complete= checkMission1(user!.karuraAddress);
-  let mission2Complete= checkMission2(user!.email);
-  let mission3Complete= checkMission3(user!.discordId);
-  let inServer = checkIsInServer(user!.discordId);
+  let mission1Complete= checkMission1(user!.karuraAddress); // address
+  let mission2Complete= checkMission2(user!.email);// email
+  let mission3Complete= checkMission3(user!.discordId);// twitter 
+  let inServer = checkIsInServer(user!.discordId); // is in server 
 
   console.log("mission3"+mission3Complete);
 
-  if(mission1Complete && mission2Complete && mission3Complete)userXp+=1000;
-  else if(mission1Complete && mission3Complete)userXp+=700;
-  else if(mission1Complete && mission2Complete) userXp =700;
-  else if(mission1Complete) userXp += 500;
-  if(!inServer) userXp = 0;
-  userXp += oldUserXp;
+  // if(mission1Complete && mission2Complete && mission3Complete)userXp+=1000;
+  // else if(mission1Complete && mission3Complete)userXp+=700;
+  // else if(mission1Complete && mission2Complete) userXp =700;
+  // else if(mission1Complete) userXp += 500;
+  // if(!inServer) userXp = 0;
+  // userXp += oldUserXp;
+
+  if(mission2Complete && mission3Complete) userXp+=500
+  else if(mission3Complete) userXp += 200
+  else if (inServer) userXp = 0
 
   return res.render("profile", {
     username: user.discordUsername,
