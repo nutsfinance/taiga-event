@@ -1,6 +1,6 @@
 import { Router, Request, Response } from "express";
 import { Keyring } from "@polkadot/keyring";
-import { getByAcalaAddress, getByTwitterAddress, getUser, updateUser, getByEmail, getByKaruraAddress } from "../user/controller";
+import { getByAcalaAddress, getByTwitterAddress, getUser, updateUser, getByEmail, getByKaruraAddress, getUserByTelegramName } from "../user/controller";
 import { Int32 } from "mongodb";
 
 var startTime = performance.now();
@@ -24,40 +24,32 @@ export const formRoutes = Router();
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
-  if(1==1)return res.render("profile-too-late");
   if (user) {
     res.render("form", {
       username: user!.discordUsername,
-      //karuraAddress: user!.karuraAddress,
-      email: user!.email,
+      telegramUserName: user!.telegramUserName,
       addressTwitter: user!.twitterLink,
     });
   } else {
     res.render("form", {
-      username: "",
-      //karuraAddress: "",
-      karuraCrowdLoanAddress: "",
-      email: "",
-      telegramUser: "",
+      username: user!.discordUsername,
+      telegramUserName: user!.telegramUserName,
+      addressTwitter: user!.twitterLink,
     });
   }
 });
 
 formRoutes.post("/", ensureLoggedIn, async (req, res) => {
-  if(1==1)return res.render("profile-too-late");
+  //submit
   const userId = (req.session as any).passport.user;
   const username = req.body.username;
-  const emailInput = req.body.email;
-  //let karuraAddress = req.body.karuraAddress;
-  const twitterLink = req.body.addressTwitter;
+  //const emailInput = req.body.email;
+  var twitterLink = req.body.addressTwitter;
+  const telegramUserName = req.body.telegramUserName;
+  const resp1 = req.body.q1;
+  const resp2 = req.body.q2;
+  const resp3 = req.body.q3;
   let address: string | undefined;
-  // if(karuraAddress == "" || karuraAddress == null)return 
-  // try {
-  //   karuraAddress = keyring.encodeAddress(keyring.decodeAddress(karuraAddress), 8)
-  // }catch(err){
-  //   console.log(err)
-  //   return res.render("form", { username: username, email: emailInput,karuraAddress: karuraAddress,addressTwitter: twitterLink,error: "The address inserted is invalid please try again" });
-  // }
 
   //check acalAddress and username ar not empty
   if(username == null || username == "")return res.render("unsuccess", {});
@@ -70,12 +62,12 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
 
   if(twitterLink != "" && twitterLink != null){
     let check2 = await getByTwitterAddress(twitterLink)
-    if(check2?.discordId != userId && check2 != null) return res.render("form", { username: username, email: emailInput,karuraAddress: "",addressTwitter: twitterLink,error: "Form submitting error or Tweet link already submitted" });
+    if(check2?.discordId != userId && check2 != null) return res.render("form", { username: username, telegramUserName: telegramUserName,karuraAddress: "",addressTwitter: twitterLink,error: "Form submitting error or Tweet link already submitted" });
   }
 
-  if(emailInput != "" && emailInput != null){
-    let check3 = await getByEmail(emailInput)
-    if(check3?.discordId != userId && check3 != null) return res.render("form", { username: username, email: emailInput,karuraAddress: "",addressTwitter: twitterLink,error: "Form submitting error or Email address already submitted" });
+  if(telegramUserName != "" && telegramUserName != null){
+    let check2 = await getUserByTelegramName(telegramUserName)
+    if(check2?.discordId != userId && check2 != null) return res.render("form", { username: username, telegramUserName: telegramUserName,karuraAddress: "",addressTwitter: twitterLink,error: "Form submitting error or telegram UserName already submitted" });
   }
 
   // if we are here the data is ok
@@ -86,7 +78,10 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
       username,
       "",
       twitterLink,
-      emailInput
+      telegramUserName,
+      resp1,
+      resp2,
+      resp3
     );
 
     if (updateRes) {
@@ -94,10 +89,8 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
     } else {
       res.render("form", {
         username: username,
-        email: emailInput,
-        karuraAddress: "",
+        telegramUserName: telegramUserName,
         addressTwitter: twitterLink,
-        error: "Error Submitting Form or user already exhist",
       });
     }
   
@@ -107,10 +100,8 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
 
     res.render("form", {
       username: username,
-      email: emailInput,
-      karuraAddress: "",
+      telegramUsername: telegramUserName,
       addressTwitter: twitterLink,
-      error: errorMessage,
     });
   }
 });

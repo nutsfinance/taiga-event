@@ -1,4 +1,4 @@
-import { Collection, MongoClient } from "mongodb";
+import { Collection, Db, MongoClient } from "mongodb";
 import path from "path";
 
 export let usersCollection: Collection | undefined;
@@ -12,6 +12,6 @@ export async function connect() {
     const db = client.db("taigaEventMongo");
     usersCollection = db.collection("user");
   } catch {
-    console.error("Unable to connect to DB");
+    console.error("Unable to connect to DB"+client.connect());
   }
 }

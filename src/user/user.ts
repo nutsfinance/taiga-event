@@ -13,4 +13,6 @@ export interface User {
   totalXp?: Number,
   inServer?: Number,
   role?: string
+  telegramUserName?:String
+  respValue?:Number
 }

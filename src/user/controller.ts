@@ -12,6 +12,15 @@ export async function getUser(id: string) {
   }
 }
 
+export async function getUserByTelegramName(username: string) {
+  if (usersCollection) {
+    const user = await usersCollection.findOne({ telegramUsername: username });
+    return user;
+  } else {
+    throw "DB not connected";
+  }
+}
+
 export async function getByTwitterAddress(id: string) {
   if (usersCollection) {
     const user = await usersCollection.findOne({ twitterLink: id });
@@ -74,7 +83,11 @@ export async function getOrCreateUser({ discordId, discordUsername }: User,
         existingXp: 0,
         totalXp: 0,
         inServer: 0,
-        role: ''
+        role: '',
+        telegramUserName: '',
+        resp1: 0,
+        resp2: 0,
+        resp3: 0 
       });
 
       if (resp.acknowledged) {
@@ -91,8 +104,7 @@ export async function getOrCreateUser({ discordId, discordUsername }: User,
   }
 }
 
-export async function updateUser(discordId: string,discordUsername:string, karuraAddress:string, twitterLink:string, email: string) {
-  email = email.toLocaleLowerCase();
+export async function updateUser(discordId: string,discordUsername:string, karuraAddress:string, twitterLink:string, telegramUserName: string, resp1: Number,resp2: Number,resp3: Number) {
   if (usersCollection) {
     const updatedAt = new Date();
 
@@ -133,7 +145,6 @@ export async function updateUser(discordId: string,discordUsername:string, karur
           insertedAt,
           updatedAt,
           karuraAddress,
-          email,
           twitterLink,
           emailMission,
           twitterMission,
@@ -141,7 +152,11 @@ export async function updateUser(discordId: string,discordUsername:string, karur
           existingXp,
           totalXp,  
           isInServer,
-          role
+          role,
+          telegramUserName,
+          resp1,
+          resp2,
+          resp3
         },
       }
     );
