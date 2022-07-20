@@ -44,6 +44,7 @@ formRoutes.get("/", ensureLoggedIn, async (req, res) => {
 });
 
 formRoutes.post("/", ensureLoggedIn, async (req, res) => {
+  res.render("profile-too-late");
   const userId = (req.session as any).passport.user;
   const username = req.body.username;
   const emailInput = req.body.email;
