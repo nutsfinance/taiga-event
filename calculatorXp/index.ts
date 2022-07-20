@@ -1,7 +1,6 @@
 
 import { User } from "./user";
 import { getOldUserXp, checkMission1,  checkMission2,checkMission3, checkIsInServer } from "../src/user/usersUtils";
-console.log("ciao")
 // const users = require('./usersBackup.json');
 // const fs = require('fs');
 

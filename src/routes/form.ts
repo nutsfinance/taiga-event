@@ -24,8 +24,7 @@ export const formRoutes = Router();
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
-  console.log(user)
-
+  res.render("profile-too-late");
   if (user) {
     res.render("form", {
       username: user!.discordUsername,
