@@ -1,5 +1,5 @@
 <div
-  class="flex flex-col justify-center items-start lg:items-center w-full h-screen lg:px-0 bg-primary-500"
+  class="flex flex-col justify-center items-start lg:items-center w-full lg:px-0 bg-primary-500"
 >
   <div class="w-full max-w-3xl px-8">
     <div class="text-3xl lg:text-5xl text-taiga-gray-50 font-semibold mb-8">
@@ -45,49 +45,45 @@
        
         <br>
         <label for="twitterAddress" class="text-taiga-gray-50 font-medium">
-        1. what is the composition of tDOT on Acala
+        1. What is the composition of tDOT on Acala?
         </label>
         <br>
-      <input type="radio" id="html" name="q1" value="1">
-      <label class="text-white" for="html">DOT and icDOT</label><br>
-      <input type="radio" id="css" name="q1" value="2">
+      <input type="radio" id="html" name="q1" value="1" {{checked1_1}}>
+      <label class="text-white" for="html">DOT and lcDOT</label><br>
+      <input type="radio" id="css" name="q1" value="2" {{checked1_2}}>
       <label class="text-white" for="css">DOR and LDOT</label><br>
-      <input type="radio" id="javascript" name="q1" value="3">
-      <label class="text-white" for="javascript">LDOT and icDOT</label>
+      <input type="radio" id="javascript" name="q1" value="3" {{checked1_3}}>
+      <label class="text-white" for="javascript">LDOT and lcDOT</label>
     </div>
     
      <div class="question2">
-       <label for="twitterAddress" class="text-taiga-gray-50 font-medium">
-        Question mission (Only all answers correct can earn this mission XP):
-        </label>
        
-        <br>
+       
+      
         <label for="twitterAddress" class="text-taiga-gray-50 font-medium">
         2. What can tDOT holders earn?
         </label>
         <br>
-      <input type="radio" id="html" name="q2" value="1">
+      <input type="radio" id="html" name="q2" value="1" {{checked2_1}}>
       <label class="text-white" for="html">Underlying yield from derivative </label><br>
-      <input type="radio" id="css" name="q2" value="2">
+      <input type="radio" id="css" name="q2" value="2" {{checked2_2}}>
       <label class="text-white" for="css">Protocol fees </label><br>
-      <input type="radio" id="javascript" name="q2" value="3">
+      <input type="radio" id="javascript" name="q2" value="3" {{checked2_3}}>
       <label class="text-white" for="javascript">Both</label>
     </div>
     <div class="question3">
-       <label for="twitterAddress" class="text-taiga-gray-50 font-medium">
-        Question mission (Only all answers correct can earn this mission XP):
-        </label>
+      
        
-        <br>
+  
         <label for="twitterAddress" class="text-taiga-gray-50 font-medium">
-        1. what is the composition of tDOT on Acala?
+        3. What are the features of tDOT?
         </label>
         <br>
-      <input type="radio" id="html" name="q3" value="1">
+      <input type="radio" id="html" name="q3" value="1" {{checked3_1}}>
       <label class="text-white" for="html">As efficient swap engine </label><br>
-      <input type="radio" id="css" name="q3" value="2">
+      <input type="radio" id="css" name="q3" value="2" {{checked3_2}}>
       <label class="text-white" for="css">Provide competitive yield and peg against native </label><br>
-      <input type="radio" id="javascript" name="q3" value="3">
+      <input type="radio" id="javascript" name="q3" value="3" {{checked3_3}}>
       <label class="text-white" for="javascript">Both</label>
     </div>
       {{!-- <label for="karuraAddress" class="text-taiga-gray-50 font-medium">Karura Address (Required)<span class="required">*</span></label>
@@ -113,10 +109,10 @@
           placeholder="Address twitter"
           value="{{addressTwitter}}"
         />
-        <div class="text-taiga-gray-50 text-sm">Please input the quote tweet link about 3pool (https://twitter.com/TaigaProtocol/status/1542885750491860992)</div>
+        <div class="text-taiga-gray-50 text-sm">Please follow Tapio’s Twitter and input the quote tweet link  (https:)</div>
       </div>
       
-      <label for="telegramUserName" class="text-taiga-gray-50 font-medium">Telegram Username
+      <label for="telegramUserName" class="text-taiga-gray-50 font-medium">Telegram username
         </label>
       <div class="flex flex-col gap-2 all_width">
         <input
@@ -124,7 +120,7 @@
           name="telegramUserName"
           type="text"
           placeholder="Subscribed email"
-          value="{{telegramUserName}}"
+          value="{{#if telegramUserName}}{{telegramUserName}} {{else}}@{{/if}}"
         />
         <div class="text-taiga-gray-50 text-sm">Please input the user name that you use to join Tapio's announcement channel of Telegram (ie. @xxxxxxx)</div>
       </div>
@@ -135,7 +131,7 @@
         id="submitBtn"
         type="submit"
         class="self-center bg-taiga-gray-50 px-6 py-2 rounded-sm text-primary-600 font-medium shadow-md hover:shadow-xl"
-      disabled>
+      >
         Submit
       </button>
     </form></div>

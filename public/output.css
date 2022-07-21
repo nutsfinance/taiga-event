@@ -4,9 +4,9 @@
   width: 100%!important;
 }
 
-.h-screen{
-  height: 130vh!important;
-}
+/* .h-screen{
+    height: 200vh!important;
+} */
 
 .required {
   color: red;
@@ -25,9 +25,7 @@
   height: 48;
 }
 
-/*
-! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
-*/
+/* ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -820,6 +818,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(245 244 245 / var(--tw-text-opacity));
 }
 
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-taiga-gray-900{
   --tw-text-opacity: 1;
   color: rgb(74 73 74 / var(--tw-text-opacity));
@@ -828,11 +831,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-primary-600{
   --tw-text-opacity: 1;
   color: rgb(22 51 188 / var(--tw-text-opacity));
-}
-
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-primary-500{

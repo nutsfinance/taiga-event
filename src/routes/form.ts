@@ -24,17 +24,62 @@ export const formRoutes = Router();
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
+  var q1 = user!.resp1;
+  var q2 = user!.resp2;
+  var q3 = user!.resp3;
+  var checked1_1;
+  var checked1_2;
+  var checked1_3;
+  var checked2_1;
+  var checked2_2;
+  var checked2_3;
+  var checked3_1;
+  var checked3_2;
+  var checked3_3;
+  //q3
+  if(q1==1) checked1_1 = "checked"
+  else if(q1 == 2) checked1_2 = "checked"
+  else if (q1==3) checked1_3 = "checked"
+//q2
+  if(q2==1) checked2_1 = "checked"
+  else if(q2 == 2) checked2_2 = "checked"
+  else if(q2==3)checked2_3 = "checked"
+  //q3
+  if(q3==1) checked3_1 = "checked"
+  else if(q3 == 2) checked3_2 = "checked"
+  else if(q3==3) checked3_3 = "checked"
+
+
+
   if (user) {
     res.render("form", {
       username: user!.discordUsername,
       telegramUserName: user!.telegramUserName,
       addressTwitter: user!.twitterLink,
+       checked1_1: checked1_1,
+       checked1_2: checked1_2,
+       checked1_3: checked1_3,
+       checked2_1: checked2_1,
+       checked2_2: checked2_2,
+       checked2_3: checked2_3,
+       checked3_1: checked3_1,
+       checked3_2: checked3_2,
+       checked3_3: checked3_3,
     });
   } else {
     res.render("form", {
       username: user!.discordUsername,
       telegramUserName: user!.telegramUserName,
       addressTwitter: user!.twitterLink,
+       checked1_1: checked1_1,
+       checked1_2: checked1_2,
+       checked1_3: checked1_3,
+       checked2_1: checked2_1,
+       checked2_2: checked2_2,
+       checked2_3: checked2_3,
+       checked3_1: checked3_1,
+       checked3_2: checked3_2,
+       checked3_3: checked3_3,
     });
   }
 });
@@ -42,7 +87,7 @@ formRoutes.get("/", ensureLoggedIn, async (req, res) => {
 formRoutes.post("/", ensureLoggedIn, async (req, res) => {
   //submit
   const userId = (req.session as any).passport.user;
-  const username = req.body.username;
+  var username = req.body.username;
   //const emailInput = req.body.email;
   var twitterLink = req.body.addressTwitter;
   const telegramUserName = req.body.telegramUserName;
@@ -67,7 +112,7 @@ formRoutes.post("/", ensureLoggedIn, async (req, res) => {
 
   if(telegramUserName != "" && telegramUserName != null){
     let check2 = await getUserByTelegramName(telegramUserName)
-    if(check2?.discordId != userId && check2 != null) return res.render("form", { username: username, telegramUserName: telegramUserName,karuraAddress: "",addressTwitter: twitterLink,error: "Form submitting error or telegram UserName already submitted" });
+    if(check2?.telegramUserName != userId && check2 != null) return res.render("form", { username: username, telegramUserName: telegramUserName,karuraAddress: "",addressTwitter: twitterLink,error: "Form submitting error or telegram UserName already submitted" });
   }
 
   // if we are here the data is ok

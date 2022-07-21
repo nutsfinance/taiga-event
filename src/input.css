@@ -3,9 +3,9 @@
 .all_width {
     width: 100%!important;
 }
-.h-screen{
+/* .h-screen{
     height: 200vh!important;
-}
+} */
 .required {
     color: red;
 }

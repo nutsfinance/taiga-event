@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start:css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-    "start:server": "NODE_ENV=dev ts-node ./src/index.ts",
+    "start:server": "npx tailwindcss -i ./src/input.css -o ./public/output.css && NODE_ENV=dev ts-node ./src/index.ts",
     "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css && tsc && cp ./ca-certificate.cer ./build/ca-certificate.cer && cp -R ./public ./build/public && cp -R ./src/views ./build/src/views"
   },
   "dependencies": {

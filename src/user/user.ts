@@ -14,5 +14,7 @@ export interface User {
   inServer?: Number,
   role?: string
   telegramUserName?:String
-  respValue?:Number
+  resp1?:Number,
+  resp2?:Number,
+  resp3?:Number
 }
