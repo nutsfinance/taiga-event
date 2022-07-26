@@ -14,7 +14,7 @@ export async function getUser(id: string) {
 
 export async function getUserByTelegramName(username: string) {
   if (usersCollection) {
-    const user = await usersCollection.findOne({ telegramUsername: username });
+    const user = await usersCollection.findOne({ telegramUserName: username });
     return user;
   } else {
     throw "DB not connected";
