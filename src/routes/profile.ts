@@ -13,36 +13,24 @@ const ensureLoggedIn = (req: Request, res: Response, next: any) => {
 
 export const profileRoutes = Router();
 
+
+
 profileRoutes.get("/", ensureLoggedIn, async (req, res) => {
-  const id: string = (req.session as any).passport.user;
+  var id: string = (req.session as any).passport.user;
+  id = "631672661965144076";
   const user = await getUser(id);
 
   let userXp = 0;
-  if (!user) return res.render("500");
-  let oldUserXp = getOldUserXp(user!.id);
-  let mission1Complete= checkMission1(user!.karuraAddress); // address
-  let mission2Complete= checkMission2(user!.email);// email
-  let mission3Complete= checkMission3(user!.discordId);// twitter 
+  if (userUtils.getUserDataJson(user!.discordId) == null) return res.render("500");
+  let questionMission = user!.resp1 == 2 && user!.resp2 == 3 && user!.resp3 == 3;
+  //let telegramMission= checkMission1(user!.karuraAddress); // address
   let inServer = checkIsInServer(user!.discordId); // is in server 
 
-  console.log("mission3"+mission3Complete);
-
-  // if(mission1Complete && mission2Complete && mission3Complete)userXp+=1000;
-  // else if(mission1Complete && mission3Complete)userXp+=700;
-  // else if(mission1Complete && mission2Complete) userXp =700;
-  // else if(mission1Complete) userXp += 500;
-  // if(!inServer) userXp = 0;
-  // userXp += oldUserXp;
-
-  if(mission2Complete && mission3Complete) userXp+=500
-  else if(mission3Complete) userXp += 200
-  else if (inServer) userXp = 0
-
   return res.render("profile", {
-    username: user.discordUsername,
-    //mission1Complete: mission1Complete,
-    mission2Complete: mission2Complete,
-    mission3Complete: mission3Complete,
+    username: user!.discordUsername,
+    questionMission: questionMission,
+    telegramMission: userUtils.getTelegramMission(id),
+    tweetMission: userUtils.getTwitterMission(id),
     inServer: inServer,
     totalXp: userXp
   });

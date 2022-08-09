@@ -24,6 +24,7 @@ export const formRoutes = Router();
 formRoutes.get("/", ensureLoggedIn, async (req, res) => {
   const userId = (req.session as any).passport.user;
   const user = await getUser(userId);
+  if(1==1)return res.render("profile-too-late");
   var q1 = user!.resp1;
   var q2 = user!.resp2;
   var q3 = user!.resp3;

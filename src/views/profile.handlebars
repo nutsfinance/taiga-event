@@ -16,9 +16,19 @@
         </div>
       </div> --}}
       <div class="flex flex-row justify-between">
-        <div>Newsletter Mission</div>
+        <div>Question Mission</div>
         <div>
-          {{#if mission2Complete}}
+          {{#if questionMission}}
+          Complete
+          {{else}}
+          Incomplete
+          {{/if}}
+        </div>
+      </div>
+       <div class="flex flex-row justify-between">
+        <div>Telegram Mission</div>
+        <div>
+          {{#if telegramMission}}
           Complete
           {{else}}
           Incomplete
@@ -28,7 +38,7 @@
       <div class="flex flex-row justify-between">
         <div>Quote tweet Mission</div>
         <div>
-          {{#if mission3Complete}}
+          {{#if tweetMission}}
           Complete
           {{else}}
           Incomplete

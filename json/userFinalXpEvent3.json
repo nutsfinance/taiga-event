@@ -1,0 +1,24 @@
+[
+    {
+        "_id": "62e0bcc2999d28201135e3ce",
+        "discordId": "631672661965144076",
+        "discordUsername": "San Segkhoonthod#8461",
+        "insertedAt": "2022-07-27T04:21:11.018Z",
+        "updatedAt": "2022-07-27T04:21:11.018Z",
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@sansegkh",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    }
+]
