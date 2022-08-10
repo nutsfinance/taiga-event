@@ -1,0 +1,6459 @@
+[
+    {
+        "_id": {
+            "$oid": "62dffee493245b8dcc6ac3c7"
+        },
+        "discordId": "423520333128138758",
+        "discordUsername": "garex97#4305",
+        "insertedAt": {
+            "$date": "2022-07-26T14:49:20.235Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T14:49:20.235Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "ssss",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@ssss",
+        "resp1": "2",
+        "resp2": "2",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62dfff2c93245b8dcc6ac3c8"
+        },
+        "discordId": "750615268467933186",
+        "discordUsername": "answer#3171",
+        "insertedAt": {
+            "$date": "2022-07-26T14:51:14.97Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T14:51:14.97Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/TapioProtocol/status/155012645",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Vincentleeyz",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0029493245b8dcc6ac3ca"
+        },
+        "discordId": "836174505470459935",
+        "discordUsername": "Chief Tokenomist#7939",
+        "insertedAt": {
+            "$date": "2022-07-26T15:06:40.019Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T15:06:40.019Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0032993245b8dcc6ac3cb"
+        },
+        "discordId": "795018476463849544",
+        "discordUsername": "alcnflz#8047",
+        "insertedAt": {
+            "$date": "2022-07-26T15:07:21.875Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T15:07:21.875Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62e0064f93245b8dcc6ac3cd"
+        },
+        "discordId": "991716319365959690",
+        "discordUsername": "Allex#4317",
+        "insertedAt": {
+            "$date": "2022-07-26T15:20:47.297Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T15:20:47.297Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62e0130493245b8dcc6ac3d0"
+        },
+        "discordId": "889797453782609932",
+        "discordUsername": "InterCake#1254",
+        "insertedAt": {
+            "$date": "2022-07-26T16:29:08.502Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T16:29:08.502Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Jn152944864/status/1551966876225388544",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Jlian13",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e011ab93245b8dcc6ac3cf"
+        },
+        "discordId": "911260908028846130",
+        "discordUsername": "El_Shea (stuf, thngz)#2419",
+        "insertedAt": {
+            "$date": "2022-07-26T16:34:56.427Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T16:34:56.427Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/shea_raymond/status/1551967799605592064",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@ElSheaRay",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0233e999d28201135e3c5"
+        },
+        "discordId": "902407353343811624",
+        "discordUsername": "Zhilvis#4428",
+        "insertedAt": {
+            "$date": "2022-07-26T17:37:18.045Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T17:37:18.045Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Vyksta1/status/1551984385922142216?s=20&t=7YBBLyCDnqJ4XsLsvCWlmw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@vyksta",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0026a93245b8dcc6ac3c9"
+        },
+        "discordId": "917076588670091284",
+        "discordUsername": "Steales#6947",
+        "insertedAt": {
+            "$date": "2022-07-27T09:08:20.98Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T09:08:20.98Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/selaets/status/1552218747615723520",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Selaets",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e020dd999d28201135e3c3"
+        },
+        "discordId": "561258548705886218",
+        "discordUsername": "0x_Kh#8261",
+        "insertedAt": {
+            "$date": "2022-07-27T15:53:28.902Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T15:53:28.902Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/OlegHarina",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Ol_Kh ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e004cd93245b8dcc6ac3cc"
+        },
+        "discordId": "888797059296153631",
+        "discordUsername": "IV#7035",
+        "insertedAt": {
+            "$date": "2022-07-28T07:46:41.86Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T07:46:41.86Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ZomCof/status/1551969088741810177?s=20&t=H6zVHKXBAlyqhHtRSE5KQw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@VichiVichi",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0211b999d28201135e3c4"
+        },
+        "discordId": "899780499436879873",
+        "discordUsername": "Mendoza#0683",
+        "insertedAt": {
+            "$date": "2022-08-02T09:38:37.361Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T09:38:37.361Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Influenc3Sphere/status/1551983178281357312",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@mendoza247 ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e00e8993245b8dcc6ac3ce"
+        },
+        "discordId": "854100013000949761",
+        "discordUsername": "katesizova#0221",
+        "insertedAt": {
+            "$date": "2022-08-08T23:08:10.622Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T23:08:10.622Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/sizova_kate/status/1556778244879388673",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@keentus",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e030d1999d28201135e3c6"
+        },
+        "discordId": "766352666698973256",
+        "discordUsername": "Dex#0351",
+        "insertedAt": {
+            "$date": "2022-07-26T18:29:05.161Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T18:29:05.161Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/yavagedex/status/1551996098356838400?s=20&t=6oH8l5u2RScjZCdAAg_NvA",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@yavage_dex",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e03ee6999d28201135e3c7"
+        },
+        "discordId": "501982635023925248",
+        "discordUsername": "Thomas#9124",
+        "insertedAt": {
+            "$date": "2022-07-26T19:38:42.851Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T19:38:42.851Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/nihilo50151289/status/1552014020701523968",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@nihilo50151289 ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0609a999d28201135e3c8"
+        },
+        "discordId": "436256874262822924",
+        "discordUsername": "0xAdrien#9624",
+        "insertedAt": {
+            "$date": "2022-07-26T21:57:07.043Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T21:57:07.043Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/adriensirvent/status/1552049832751153153",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@adrienxs",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e07916999d28201135e3c9"
+        },
+        "discordId": "813444371159842876",
+        "discordUsername": "Dodow#8095",
+        "insertedAt": {
+            "$date": "2022-07-26T23:54:35.53Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-26T23:54:35.53Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/fashionistawong/status/1552078222170406913?s=20&t=mrH3DPRxAxrVs0GBlmeRLA",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@DW_Yo_Man",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e09623999d28201135e3ca"
+        },
+        "discordId": "823823759010037760",
+        "discordUsername": "Fei#4375",
+        "insertedAt": {
+            "$date": "2022-07-27T01:42:28.507Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T01:42:28.507Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/SCaofei/status/1552106399081017344",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@lFeil",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0b1ac999d28201135e3cc"
+        },
+        "discordId": "873014729667383297",
+        "discordUsername": "XiuSeng#9793",
+        "insertedAt": {
+            "$date": "2022-07-27T03:36:58.376Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T03:36:58.376Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/LuBiaoc/status/1552135600358141952",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@xiuseng",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0bcc2999d28201135e3ce"
+        },
+        "discordId": "631672661965144076",
+        "discordUsername": "San Segkhoonthod#8461",
+        "insertedAt": {
+            "$date": "2022-07-27T04:21:11.018Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T04:21:11.018Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@sansegkh",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0e90d999d28201135e3d0"
+        },
+        "discordId": "818877056711393340",
+        "discordUsername": "BIgV#7514",
+        "insertedAt": {
+            "$date": "2022-07-27T09:08:27.264Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T09:08:27.264Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/BigV02808841/status/1552218642808438784",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@ValentinS",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e10715999d28201135e3d3"
+        },
+        "discordId": "698591749458755635",
+        "discordUsername": "delton#2048",
+        "insertedAt": {
+            "$date": "2022-07-27T10:33:49.589Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T10:33:49.589Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/deltonzzz/status/1552240241049829377",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@deltonzzz  ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0dd73999d28201135e3cf"
+        },
+        "discordId": "859008905304604683",
+        "discordUsername": "Alexgul#6187",
+        "insertedAt": {
+            "$date": "2022-07-27T16:28:35.386Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T16:28:35.386Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/qsdwbwefgchiqkz/status/1552328883336249344?s=21&t=makJ6XqfZfYnop_O1_roeg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@alexgulenko",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": null,
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0a640999d28201135e3cb"
+        },
+        "discordId": "799409465245696022",
+        "discordUsername": "Channing C#7408",
+        "insertedAt": {
+            "$date": "2022-07-28T14:44:57.553Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T14:44:57.553Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/cheney60027417/status/1552665725638062080",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@channing_cheng",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0b942999d28201135e3cd"
+        },
+        "discordId": "220556980966653953",
+        "discordUsername": "Ikey#7042",
+        "insertedAt": {
+            "$date": "2022-08-04T02:27:18.314Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-04T02:27:18.314Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/UltraHummus/status/1555012604803698688?t=RgiHqhEMNUmQgWfkHKVBng&s=19",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@IkennaOg",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e109c7999d28201135e3d4"
+        },
+        "discordId": "826727345020600360",
+        "discordUsername": "CRL#5351",
+        "insertedAt": {
+            "$date": "2022-07-27T09:52:54.164Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T09:52:54.164Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/CRLCRL7/status/1552230164012089345",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@CRLCRLCRLCRL",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0f74c999d28201135e3d1"
+        },
+        "discordId": "986928065521266718",
+        "discordUsername": "O.T#4906",
+        "insertedAt": {
+            "$date": "2022-07-27T09:57:38.425Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T09:57:38.425Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://t.co/32vzRuByDV",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@angus ",
+        "resp1": "3",
+        "resp2": "1",
+        "resp3": "2",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e14129999d28201135e3d6"
+        },
+        "discordId": "493751455891718145",
+        "discordUsername": "Saffron#0848",
+        "insertedAt": {
+            "$date": "2022-07-27T13:53:24.98Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T13:53:24.98Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/syedNinja1/status/1552290624367431682?t=YadNMZymfcpjw5pnVLcfnQ&s=19",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Magicaljourney22",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e14b81999d28201135e3d8"
+        },
+        "discordId": "733459225946357850",
+        "discordUsername": "jerms123456#9265",
+        "insertedAt": {
+            "$date": "2022-07-27T14:32:23.731Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T14:32:23.731Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/jerms123456/status/1552300356150992897?s=20&t=AKqLtmSqE5vcNBTgAR_DVw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@jerms123456",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e1559e999d28201135e3d9"
+        },
+        "discordId": "743093963392811109",
+        "discordUsername": "kornik#4459",
+        "insertedAt": {
+            "$date": "2022-07-27T15:16:37.477Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T15:16:37.477Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Ania82153972/status/1552311507538567170",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@kornikrobert",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e1588c999d28201135e3da"
+        },
+        "discordId": "934519423610544188",
+        "discordUsername": "Ipchess#4961",
+        "insertedAt": {
+            "$date": "2022-07-27T15:23:56.228Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T15:23:56.228Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62e1753b999d28201135e3db"
+        },
+        "discordId": "918555964318289950",
+        "discordUsername": "MacCloud#8757",
+        "insertedAt": {
+            "$date": "2022-07-27T17:32:11.031Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T17:32:11.031Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/duncan_maccloud/status/1552345704340901892?s=21&t=3xJbDV__kM9VZ3eQY9u9EA",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@nichebrodmefodiy ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e17a6b999d28201135e3dc"
+        },
+        "discordId": "703680396730040492",
+        "discordUsername": "ChaosZxro#5080",
+        "insertedAt": {
+            "$date": "2022-07-27T17:53:09.203Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T17:53:09.203Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ChaosZxro/status/1552351233775702016",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@ChaosZxro",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e188c2999d28201135e3dd"
+        },
+        "discordId": "878349932006895646",
+        "discordUsername": "TimurShak1984#1580",
+        "insertedAt": {
+            "$date": "2022-07-27T18:59:29.087Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T18:59:29.087Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/TimurShak1984/status/1552367810227175430?s=20&t=mhToq2oGjJ2RY1itPoKFqw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@TimurShak1984",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e1c790999d28201135e3df"
+        },
+        "discordId": "826730039731027969",
+        "discordUsername": "Durph#6276",
+        "insertedAt": {
+            "$date": "2022-07-27T23:25:55.177Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-27T23:25:55.177Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "@DURPH09",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Durph09",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e142e4999d28201135e3d7"
+        },
+        "discordId": "840796244880261141",
+        "discordUsername": "Denis Vladimirovich#6715",
+        "insertedAt": {
+            "$date": "2022-07-28T02:11:53.635Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T02:11:53.635Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/denisneformat/status/1552476353257144322?s=20&t=N0natwokpClRjVT-wbwQBw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Denis_Vladimirovich_125rus",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e13fdf999d28201135e3d5"
+        },
+        "discordId": "915887755400183818",
+        "discordUsername": "kristina#7027",
+        "insertedAt": {
+            "$date": "2022-07-28T07:46:52.878Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T07:46:52.878Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/kri198716/status/1552560742775275522?s=21&t=cxZQFhJ0_tUvbSiKPJ3xJg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@na240365",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e18d7c999d28201135e3de"
+        },
+        "discordId": "166956346699153408",
+        "discordUsername": "Sma1lD#3803",
+        "insertedAt": {
+            "$date": "2022-08-02T20:16:52.573Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T20:16:52.573Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Wol_Co7/status/1552380162779791360",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Wol_Co7 ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e1f513999d28201135e3e0"
+        },
+        "discordId": "912738042614255676",
+        "discordUsername": "Primoro4ka#4169",
+        "insertedAt": {
+            "$date": "2022-07-28T03:11:45.263Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T03:11:45.263Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Den4ik45024157/status/1552487071297769472?s=20&t=NXTAICbbHZJDZZjCoXQYWg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Vasia_negr",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e0fa40999d28201135e3d2"
+        },
+        "discordId": "734189982922702948",
+        "discordUsername": "Andrewsjs#5466",
+        "insertedAt": {
+            "$date": "2022-07-28T05:59:50.925Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T05:59:50.925Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/938kebd82f/status/1552215949838876672?s=20&t=gePjxsfLR9Cej4W3GT9IWQ",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Andrewsj",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e23057999d28201135e3e1"
+        },
+        "discordId": "735971689812197546",
+        "discordUsername": "ponzi_partaker#5823",
+        "insertedAt": {
+            "$date": "2022-07-28T07:04:53.399Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T07:04:53.399Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ponzi_partaker/status/1552550457964462082",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@https://t.me/ponzi_partaker",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e235d7999d28201135e3e2"
+        },
+        "discordId": "842997814413623338",
+        "discordUsername": "ᒪIᒪ ᗰᗩᑎGO | Vietnamese#4224",
+        "insertedAt": {
+            "$date": "2022-07-28T07:10:27.608Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T07:10:27.608Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/nguyencao_cao/status/1552551808723472384?s=20&t=tcYHbEIIEhD83NoTngqEDg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@lil_mango420",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e28353999d28201135e3e5"
+        },
+        "discordId": "695178962791563336",
+        "discordUsername": "scouserua#7035",
+        "insertedAt": {
+            "$date": "2022-07-28T12:44:29.778Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T12:44:29.778Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/scouser81828851/status/1552635515836551168",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@scouserua",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e28676999d28201135e3e6"
+        },
+        "discordId": "897392586631835658",
+        "discordUsername": "vitaliyursakiy#2722",
+        "insertedAt": {
+            "$date": "2022-07-28T12:58:09.54Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T12:58:09.54Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/vitaliyursakiy/status/1552639292295581696",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@s_sssff",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e29d40999d28201135e3e8"
+        },
+        "discordId": "793062883251585056",
+        "discordUsername": "Yuliia#7748",
+        "insertedAt": {
+            "$date": "2022-07-28T14:37:47.291Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T14:37:47.291Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Yuliia86842133/status/1552664425869578241?s=20&t=Kw-3Gm7bm7bQKDinRVeycQ",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@YuliiaPink",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e2a481999d28201135e3e9"
+        },
+        "discordId": "923870642544197672",
+        "discordUsername": "kila1000#5002",
+        "insertedAt": {
+            "$date": "2022-07-28T15:08:18.535Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T15:08:18.535Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Sergey65109969/status/1552671976975745025",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@kila100000",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e24d25999d28201135e3e3"
+        },
+        "discordId": "684889824985088051",
+        "discordUsername": "CblHYJlbKA#3545",
+        "insertedAt": {
+            "$date": "2022-07-28T08:50:30.332Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T08:50:30.332Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Effen37192001/status/1552577017970917376?s=20&t=S9SQNPURh0IJtStfpsaxSg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@SquadraFX",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e26bcc999d28201135e3e4"
+        },
+        "discordId": "359279082866868235",
+        "discordUsername": "st#3048",
+        "insertedAt": {
+            "$date": "2022-07-28T11:06:27.425Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T11:06:27.425Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@mk88km",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e28840999d28201135e3e7"
+        },
+        "discordId": "897403979854643210",
+        "discordUsername": "vasyaduchev#5871",
+        "insertedAt": {
+            "$date": "2022-07-28T13:02:43.613Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T13:02:43.613Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Irenka510/status/1552640580659957761",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@mobileairdrop",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e2ba92999d28201135e3ea"
+        },
+        "discordId": "822753398222880788",
+        "discordUsername": "Sure_gear#7645",
+        "insertedAt": {
+            "$date": "2022-07-28T16:54:51.355Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T16:54:51.355Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Anthony90645138/status/1552698015995105280?s=20&t=SzGI89JjTWWCJWyzbaGoIw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@SureGear",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e2cf04999d28201135e3ec"
+        },
+        "discordId": "824617328963747870",
+        "discordUsername": "Salmon#8296",
+        "insertedAt": {
+            "$date": "2022-07-28T18:07:21.542Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T18:07:21.542Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Lopata66682071/status/1552716736528523264",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Lopata07",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e2ce8b999d28201135e3eb"
+        },
+        "discordId": "923778071402782740",
+        "discordUsername": "Dmitri#9732",
+        "insertedAt": {
+            "$date": "2022-07-28T18:21:12.871Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T18:21:12.871Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/TimbaliucDmitri/status/1552720542301569025?s=20&t=ZYV8LpbJLyJcGIodn63wMQ",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@dmitritds",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e2eaa9999d28201135e3ed"
+        },
+        "discordId": "495991146443571200",
+        "discordUsername": "diman#4685",
+        "insertedAt": {
+            "$date": "2022-07-28T20:08:35.684Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-28T20:08:35.684Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/vdovinda/status/1552747519930732544",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@vdovinda",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e37ead999d28201135e3ee"
+        },
+        "discordId": "626117646659878927",
+        "discordUsername": "tesseract#3632",
+        "insertedAt": {
+            "$date": "2022-07-29T07:04:17.057Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-29T07:04:17.057Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/TapioProtocol/status/1550126450073690112?s=20&t=LdzZZVquU5XLNv7h4KIfLg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@exehe_1 ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e3a6d6999d28201135e3ef"
+        },
+        "discordId": "800448359386972202",
+        "discordUsername": "Shiva_Warrior#3657",
+        "insertedAt": {
+            "$date": "2022-07-29T09:30:19.298Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-29T09:30:19.298Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/vospyakov/status/1552949546824744960",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@vospyakov",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e40a94999d28201135e3f0"
+        },
+        "discordId": "216336294358286336",
+        "discordUsername": "eclipse#3894",
+        "insertedAt": {
+            "$date": "2022-07-29T17:15:24.879Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-29T17:15:24.879Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/DiamondiumHands/status/1553066347571159047",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@councilor_db",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e4c248999d28201135e3f1"
+        },
+        "discordId": "485817172552318976",
+        "discordUsername": "mitbka_nvrsk#3353",
+        "insertedAt": {
+            "$date": "2022-07-30T05:41:19.244Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-30T05:41:19.244Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/mitbka_verhovod/status/1553253302321684481?t=el5MsdLojUFjp-N0t0OD5A&s=19",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@mitbka_verhovod ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e56b20999d28201135e3f2"
+        },
+        "discordId": "757008900472963094",
+        "discordUsername": "omegamike#3228",
+        "insertedAt": {
+            "$date": "2022-07-30T17:32:16.15Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-30T17:32:16.15Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62e5840a999d28201135e3f3"
+        },
+        "discordId": "467718708119470093",
+        "discordUsername": "Rlytrue#9091",
+        "insertedAt": {
+            "$date": "2022-07-30T19:24:37.511Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-30T19:24:37.511Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/rlytrue/status/1553461427066863621",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Rlytrue",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e5bd3b999d28201135e3f4"
+        },
+        "discordId": "820888748828000278",
+        "discordUsername": "StasMexico27#9271",
+        "insertedAt": {
+            "$date": "2022-07-30T23:30:37.832Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-30T23:30:37.832Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/StasMexico/status/1553522660939898885?s=20&t=MxAtuhZplCd4LW3CGx7PVg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@StasMexico",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e69b22999d28201135e3f7"
+        },
+        "discordId": "469434278342557697",
+        "discordUsername": "CristalAura#5974",
+        "insertedAt": {
+            "$date": "2022-07-31T15:16:54.739Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T15:16:54.739Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Lil_Cristal/status/1553761299892473857",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@CristalAura",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e537999d28201135e3fd"
+        },
+        "discordId": "920927422575157249",
+        "discordUsername": "NujaR#7919",
+        "insertedAt": {
+            "$date": "2022-07-31T20:34:03.545Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:34:03.545Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/TygerPamela/status/1553841352886059011",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@verona_only",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e538999d28201135e3fe"
+        },
+        "discordId": "920988467469631578",
+        "discordUsername": "monk#9921",
+        "insertedAt": {
+            "$date": "2022-07-31T20:35:21.329Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:35:21.329Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Monique77430538/status/1553841672362016770",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@svetanovg",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e545999d28201135e402"
+        },
+        "discordId": "920994121676619776",
+        "discordUsername": "galeo#6583",
+        "insertedAt": {
+            "$date": "2022-07-31T20:37:38.681Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:37:38.681Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/SherrettSara/status/1553842246700638209",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@keithak",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e540999d28201135e401"
+        },
+        "discordId": "920997734104850433",
+        "discordUsername": "Cassa#5573",
+        "insertedAt": {
+            "$date": "2022-07-31T20:41:20.555Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:41:20.555Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ReneeLu19217440/status/1553843174950535169",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@nataaga",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e753ec999d28201135e403"
+        },
+        "discordId": "733877103908618303",
+        "discordUsername": "Fechuky_25#1261",
+        "insertedAt": {
+            "$date": "2022-08-01T04:24:53.883Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-01T04:24:53.883Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/nachodefii/status/1553959087397912576",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Fechuky",
+        "resp1": "3",
+        "resp2": "1",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e63ef9999d28201135e3f6"
+        },
+        "discordId": "872572876715343953",
+        "discordUsername": "affectus#9867",
+        "insertedAt": {
+            "$date": "2022-07-31T08:38:45.209Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T08:38:45.209Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/exradar_com/status/1553661306821120007",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@gfb_dd",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6ab42999d28201135e3f8"
+        },
+        "discordId": "334468192993017857",
+        "discordUsername": "vbaluch#9924",
+        "insertedAt": {
+            "$date": "2022-07-31T16:22:58.787Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T16:22:58.787Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/where_is_viktor/status/1553777813752143872",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@where_is_viktor",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e15d999d28201135e3f9"
+        },
+        "discordId": "920917795389186138",
+        "discordUsername": "Viki#2914",
+        "insertedAt": {
+            "$date": "2022-07-31T20:17:34.562Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:17:34.562Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Daniell08452963/status/1553836980869468162",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@lipovalex",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e534999d28201135e3fa"
+        },
+        "discordId": "920921294399213639",
+        "discordUsername": "robera#7427",
+        "insertedAt": {
+            "$date": "2022-07-31T20:28:00.169Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:28:00.169Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/KiaraHo70157839/status/1553839753807765506",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@ViachAlex ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e534999d28201135e3fb"
+        },
+        "discordId": "920923594203234304",
+        "discordUsername": "myrtl#2348",
+        "insertedAt": {
+            "$date": "2022-07-31T20:30:36.935Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:30:36.935Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/KatieCo87208978/status/1553840454533251072",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@PetTaty",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e535999d28201135e3fc"
+        },
+        "discordId": "920925234696183821",
+        "discordUsername": "Yasu#9421",
+        "insertedAt": {
+            "$date": "2022-07-31T20:32:49.412Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:32:49.412Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/TinaPederson11/status/1553841022643294208",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@niksuy",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e539999d28201135e3ff"
+        },
+        "discordId": "920991586593148938",
+        "discordUsername": "Vankes#8352",
+        "insertedAt": {
+            "$date": "2022-07-31T20:36:36.826Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:36:36.826Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ShannonFink16/status/1553841938968838146",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@elsayr",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e6e53e999d28201135e400"
+        },
+        "discordId": "920996033855627324",
+        "discordUsername": "kylee#5395",
+        "insertedAt": {
+            "$date": "2022-07-31T20:38:42.804Z"
+        },
+        "updatedAt": {
+            "$date": "2022-07-31T20:38:42.804Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/JaneAll66202249/status/1553842527349968904",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@natalytep",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e795d3999d28201135e404"
+        },
+        "discordId": "876723431666757682",
+        "discordUsername": "ikamskiy#5362",
+        "insertedAt": {
+            "$date": "2022-08-01T09:07:51.442Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-01T09:07:51.442Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/IKamskiy/status/1554029294120222721?s=20&t=wA9fUAvVL6iPqusrwRicMQ",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@reddika",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e7aea7999d28201135e405"
+        },
+        "discordId": "754897476665999450",
+        "discordUsername": "Royalblood#6553",
+        "insertedAt": {
+            "$date": "2022-08-01T11:05:59.491Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-01T11:05:59.491Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/RoyalBllood/status/1554056478868361216",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Royalblood007",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e7b3ac999d28201135e406"
+        },
+        "discordId": "886455222354980944",
+        "discordUsername": "cryptoabudence | Cantina Royale#6111",
+        "insertedAt": {
+            "$date": "2022-08-01T11:13:00.614Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-01T11:13:00.614Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Zerber173/status/1554062430573133825?s=20&t=vSbQ7yZag7G7-q0gdhfrmA",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@antonyxxx7",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e7b830999d28201135e407"
+        },
+        "discordId": "772060653850460161",
+        "discordUsername": "ro_mych#1569",
+        "insertedAt": {
+            "$date": "2022-08-01T11:30:03.199Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-01T11:30:03.199Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/sane293/status/1554066779412090886?s=21&t=N8F8v7mDFaHDjFD-HD8qFg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@ro_mych",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e7fdd7999d28201135e408"
+        },
+        "discordId": "402120441906462727",
+        "discordUsername": "Tars#6936",
+        "insertedAt": {
+            "$date": "2022-08-01T16:25:51.446Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-01T16:25:51.446Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "@docteurlupus",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@JackHarknes",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e82d48999d28201135e409"
+        },
+        "discordId": "788463547381448704",
+        "discordUsername": "SoutherSun 🖕#4176",
+        "insertedAt": {
+            "$date": "2022-08-01T19:54:50.267Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-01T19:54:50.267Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ZPvJIUzg5g3bqUm/status/1554193336642174976",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@SoutherSun",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e8d5f2999d28201135e40a"
+        },
+        "discordId": "829008443108884501",
+        "discordUsername": "Andreykriptoman#8041",
+        "insertedAt": {
+            "$date": "2022-08-02T07:49:31.349Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T07:49:31.349Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/AndreyPiterskai/status/1554373548961054721",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@AndreyPiterskai",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e8e247999d28201135e40b"
+        },
+        "discordId": "907998904547676191",
+        "discordUsername": "Benedict1#8529",
+        "insertedAt": {
+            "$date": "2022-08-02T08:38:23.5Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T08:38:23.5Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/TapioProtocol/status/1550126450073690112",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Benethefirst",
+        "resp1": "3",
+        "resp2": "1",
+        "resp3": "2",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e8e339999d28201135e40c"
+        },
+        "discordId": "900676196692541460",
+        "discordUsername": "The Scarlet Thread#2215",
+        "insertedAt": {
+            "$date": "2022-08-02T08:46:53.637Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T08:46:53.637Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/TheScarletThr/status/1554387766028521474?t=8Eedb-jTCE4rFSnHeVu2Pg&s=19",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Scarlet_Thr",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e91dc4999d28201135e413"
+        },
+        "discordId": "282260539915108353",
+        "discordUsername": "Cfrazumadh#2924",
+        "insertedAt": {
+            "$date": "2022-08-02T12:59:09.355Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T12:59:09.355Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/AndreiIhnatovi1/status/1554451219472683010",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Josh_Bom_Bom",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e92042999d28201135e414"
+        },
+        "discordId": "889181572601888778",
+        "discordUsername": "Artsiom#0671",
+        "insertedAt": {
+            "$date": "2022-08-02T13:12:52.33Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T13:12:52.33Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Artem98225702/status/1554452287300534273",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Magnaat",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e9412b999d28201135e417"
+        },
+        "discordId": "125125425436295168",
+        "discordUsername": "DAllenT#5632",
+        "insertedAt": {
+            "$date": "2022-08-02T15:22:19.865Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T15:22:19.865Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62e95b88999d28201135e418"
+        },
+        "discordId": "757586148024385587",
+        "discordUsername": "Jacky#6561",
+        "insertedAt": {
+            "$date": "2022-08-02T17:21:39.685Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T17:21:39.685Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Shuvam06231284/status/1554516771759017984?t=LtC6XfnTaQ1-OiMQYxdBvw&s=19",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Shuvam0123",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e96803999d28201135e41c"
+        },
+        "discordId": "892485516824559616",
+        "discordUsername": "jwl04#7047",
+        "insertedAt": {
+            "$date": "2022-08-02T18:08:36.167Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T18:08:36.167Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/jwl04/status/1554529329765285889",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@jwl04",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e968fb999d28201135e41d"
+        },
+        "discordId": "892435814615765053",
+        "discordUsername": "mr.HDX#6851",
+        "insertedAt": {
+            "$date": "2022-08-02T18:21:17.438Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T18:21:17.438Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Ro_HDX/status/1554532532259110912",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Basilisk_K",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e9187b999d28201135e412"
+        },
+        "discordId": "819248962947121152",
+        "discordUsername": "abekenf#4366",
+        "insertedAt": {
+            "$date": "2022-08-05T15:49:01.634Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-05T15:49:01.634Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/beken80404109/status/1555579605356011521?s=20&t=cwPuizVp8kzNYPm2Qeqo6w",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@abekenf",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e8e3dc999d28201135e40d"
+        },
+        "discordId": "878982263935762483",
+        "discordUsername": "Moshniy#9408",
+        "insertedAt": {
+            "$date": "2022-08-02T08:53:50.336Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T08:53:50.336Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/a_karsakov90/status/1554389644879577088",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Akarsakov90",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e8e994999d28201135e40e"
+        },
+        "discordId": "768692566547365890",
+        "discordUsername": "steadygettingblown#7056",
+        "insertedAt": {
+            "$date": "2022-08-02T10:18:44.383Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T10:18:44.383Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://mobile.twitter.com/Greg07888775",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Steadygettingblown ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e8f56e999d28201135e410"
+        },
+        "discordId": "414516560431153152",
+        "discordUsername": "Ancient#9396",
+        "insertedAt": {
+            "$date": "2022-08-02T10:26:10.637Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T10:26:10.637Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Master_Vitaliy/status/1554413099050041350",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Vitaliy_ARC  ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e921e8999d28201135e415"
+        },
+        "discordId": "896703602209456138",
+        "discordUsername": "nastya#3080",
+        "insertedAt": {
+            "$date": "2022-08-02T13:11:43.761Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T13:11:43.761Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/_Kvietus/status/1554454680130011137",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@nastyasikor",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e8f76a999d28201135e411"
+        },
+        "discordId": "677067786740301835",
+        "discordUsername": "togar#6962",
+        "insertedAt": {
+            "$date": "2022-08-02T15:11:08.864Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T15:11:08.864Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/togar5692/status/1554484855643283457",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@toga56 ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e93a45999d28201135e416"
+        },
+        "discordId": "405009145079529482",
+        "discordUsername": "Soul.Logix#4328",
+        "insertedAt": {
+            "$date": "2022-08-02T15:35:59.296Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T15:35:59.296Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://mobile.twitter.com/HeardYa/status/1554483542217867265",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@soul.logix ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e95cbb999d28201135e41a"
+        },
+        "discordId": "754604347140341812",
+        "discordUsername": "iFlash#5582",
+        "insertedAt": {
+            "$date": "2022-08-02T17:46:53.206Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T17:46:53.206Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/iprylovroman1/status/1554523753593409539",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@iFlash04",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e965fe999d28201135e41b"
+        },
+        "discordId": "892421730415571047",
+        "discordUsername": "mr.Sol#4910",
+        "insertedAt": {
+            "$date": "2022-08-02T18:03:11.208Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T18:03:11.208Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/RJ_SOLANA/status/1554527269376466944",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@iRomanSE",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e969b0999d28201135e41e"
+        },
+        "discordId": "816418238069211136",
+        "discordUsername": "arteasydrop#1305",
+        "insertedAt": {
+            "$date": "2022-08-02T18:15:12.456Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T18:15:12.456Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62e96b73999d28201135e41f"
+        },
+        "discordId": "943425597173026828",
+        "discordUsername": "ms.Mango#2168",
+        "insertedAt": {
+            "$date": "2022-08-02T18:25:14.475Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T18:25:14.475Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/tatyanarylova63/status/1554533555966976007",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Mangos63",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e96c7a999d28201135e420"
+        },
+        "discordId": "944072030842654770",
+        "discordUsername": "Evgeniya#8087",
+        "insertedAt": {
+            "$date": "2022-08-02T18:30:10.042Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T18:30:10.042Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Evgenia1526/status/1554534619231444993",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Evgenia1526",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e95c38999d28201135e419"
+        },
+        "discordId": "425743507970457605",
+        "discordUsername": "ATI.Rodion#4427",
+        "insertedAt": {
+            "$date": "2022-08-07T19:23:39.07Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T19:23:39.07Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ATI_Rodion/status/1556356982533234695?s=20&t=sm2U37nqZCHSvfWsuPuVdQ",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@ATI_Rodion",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f01b13999d28201135e445"
+        },
+        "discordId": "876054418074763325",
+        "discordUsername": "AlikTHOR#0965",
+        "insertedAt": {
+            "$date": "2022-08-07T20:07:04.27Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:07:04.27Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/AlikTHOR?s=09",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@AlikTHOR",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e96d35999d28201135e421"
+        },
+        "discordId": "225692814174846976",
+        "discordUsername": "shmarazasotku#1744",
+        "insertedAt": {
+            "$date": "2022-08-02T18:31:23.803Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-02T18:31:23.803Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "twitter.com/vandermar1996",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Vandermar1996",
+        "resp1": "2",
+        "resp2": null,
+        "resp3": null,
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e8f1fd999d28201135e40f"
+        },
+        "discordId": "841105459413778452",
+        "discordUsername": "A dot B#7010",
+        "insertedAt": {
+            "$date": "2022-08-03T00:29:30.335Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-03T00:29:30.335Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/A_dot_B_/status/1554625174409920512?s=20&t=YQoyx6uDZICCNco4y8rGJA",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Ab0uko",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62e63b6d999d28201135e3f5"
+        },
+        "discordId": "928576995418325052",
+        "discordUsername": "melonka#6727",
+        "insertedAt": {
+            "$date": "2022-08-03T17:27:06.764Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-03T17:27:06.764Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/tatabramelon/status/1554881115831386112",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@melonkaka",
+        "resp1": "3",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62eb540e999d28201135e425"
+        },
+        "discordId": "827778467680354304",
+        "discordUsername": "Chriispy#2489",
+        "insertedAt": {
+            "$date": "2022-08-04T05:08:25.073Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-04T05:08:25.073Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/chriispy6/status/1555057611883458562?s=20&t=6NvOW-e6PZkzKn46v3JR5A",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@chriiispy",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62eb70af999d28201135e426"
+        },
+        "discordId": "910286064722280488",
+        "discordUsername": "Muravei_83#0837",
+        "insertedAt": {
+            "$date": "2022-08-04T07:14:53.658Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-04T07:14:53.658Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/TapioProtocol/status/1550126450073690112?s=20&t=lKT4WNn9z5Ny0T7KK3j6Uw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@muravei_83",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62eb8ba0999d28201135e427"
+        },
+        "discordId": "424277701617254413",
+        "discordUsername": "telefonur#1893",
+        "insertedAt": {
+            "$date": "2022-08-04T09:04:32.432Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-04T09:04:32.432Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62ec0064999d28201135e429"
+        },
+        "discordId": "961170858787889153",
+        "discordUsername": "KIKSTART#4395",
+        "insertedAt": {
+            "$date": "2022-08-04T17:22:44.731Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-04T17:22:44.731Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62ece705999d28201135e42a"
+        },
+        "discordId": "827924599538581530",
+        "discordUsername": "Gorbywa88#1797",
+        "insertedAt": {
+            "$date": "2022-08-05T09:57:01.483Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-05T09:57:01.483Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/hoodlbtc/status/1555491429543301120?s=20&t=yv-U_UR4mKOIPzcPTzGfwA",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Spencer88",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62ed343d999d28201135e42c"
+        },
+        "discordId": "906901536398016555",
+        "discordUsername": "Ginga#9977",
+        "insertedAt": {
+            "$date": "2022-08-07T06:44:08.459Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T06:44:08.459Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/2ninin23/status/1556168128266063873?s=20&t=OMGAJ9SPtpylk-4ERGtbUg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Ginganinin",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efb8ff999d28201135e435"
+        },
+        "discordId": "885560334553870338",
+        "discordUsername": "mavidelin#9922",
+        "insertedAt": {
+            "$date": "2022-08-07T13:09:36.922Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:09:36.922Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/mavidelit/status/1556010974003576835",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@kuhalskiy89",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc0db999d28201135e437"
+        },
+        "discordId": "885568344202293269",
+        "discordUsername": "lieronan#6044",
+        "insertedAt": {
+            "$date": "2022-08-07T13:42:41.044Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:42:41.044Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/lieronans/status/1556018197609988101",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@shahzadahmad1122",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efb52c999d28201135e432"
+        },
+        "discordId": "393224117371011082",
+        "discordUsername": "OptiMysthic#6481",
+        "insertedAt": {
+            "$date": "2022-08-09T02:49:36.553Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-09T02:49:36.553Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/yazied_bachtiar/status/1556265174637547520?t=Rdz6KW8dBSEI9UtQCR9NMA&s=19",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@yaziedbachtiar  ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62eac5f1999d28201135e422"
+        },
+        "discordId": "878713751375867925",
+        "discordUsername": "alexuvi#7448",
+        "insertedAt": {
+            "$date": "2022-08-03T19:12:33.075Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-03T19:12:33.075Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/UviAlex/status/1554907911742160900?s=20&t=e2C9ULhy1cPKcEYaRVLtUw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@alexuvi",
+        "resp1": "3",
+        "resp2": "1",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62eadd31999d28201135e423"
+        },
+        "discordId": "908117593376825375",
+        "discordUsername": "bonermuffin69#3021",
+        "insertedAt": {
+            "$date": "2022-08-03T20:43:22.213Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-03T20:43:22.213Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/bonermuffin69/status/1554930696011096069?s=20&t=4C7ySLVTxq8nAxrV5M8_0Q",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@bonermuffin69",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62eae858999d28201135e424"
+        },
+        "discordId": "564928324497965056",
+        "discordUsername": "realredsteel#2970",
+        "insertedAt": {
+            "$date": "2022-08-03T21:35:08.095Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-03T21:35:08.095Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/realredsteel/status/1554943577473503232?s=20&t=ohgy90CmvjzAa3vMt4h1dQ",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@realredsteel",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62ebc07e999d28201135e428"
+        },
+        "discordId": "459760677935120384",
+        "discordUsername": "summershades#8621",
+        "insertedAt": {
+            "$date": "2022-08-04T12:57:20.482Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-04T12:57:20.482Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@theshadesofsummer",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62eec7ba999d28201135e42d"
+        },
+        "discordId": "886285314769969223",
+        "discordUsername": "Alex-March#8206",
+        "insertedAt": {
+            "$date": "2022-08-06T19:57:46.758Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-06T19:57:46.758Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62eee425999d28201135e42e"
+        },
+        "discordId": "373491653681610762",
+        "discordUsername": "𝔾𝟝𝕊ℂℝ𝔼𝔸𝕄#0822",
+        "insertedAt": {
+            "$date": "2022-08-06T22:03:40.834Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-06T22:03:40.834Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/g5scream/status/1556021000180989954?t=0AhERwjz_vQM4Q8bK4B1kQ&s=19",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Daesumnor",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62ef71ab999d28201135e42f"
+        },
+        "discordId": "745489116090597447",
+        "discordUsername": "pipoex#4685",
+        "insertedAt": {
+            "$date": "2022-08-07T08:40:22.064Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T08:40:22.064Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/pipoex/status/1556197580719022080",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@pipoex",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efa99b999d28201135e430"
+        },
+        "discordId": "885534268674175018",
+        "discordUsername": "thaony1500#7379",
+        "insertedAt": {
+            "$date": "2022-08-07T12:23:49.967Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T12:23:49.967Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/thaony150/status/1555983887276335110",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@zgreymoon",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efb135999d28201135e431"
+        },
+        "discordId": "885549190539771925",
+        "discordUsername": "leyjusan#2756",
+        "insertedAt": {
+            "$date": "2022-08-07T12:37:07.287Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T12:37:07.287Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/leyjusanp/status/1556003131959418881",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@GalaktionYakovlev814",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efb841999d28201135e434"
+        },
+        "discordId": "885557530158321704",
+        "discordUsername": "ryson#3688",
+        "insertedAt": {
+            "$date": "2022-08-07T13:05:42.189Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:05:42.189Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ryson98/status/1556004295790714881",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Denis_Dolgopiatov",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efb5bd999d28201135e433"
+        },
+        "discordId": "924289749001334804",
+        "discordUsername": "Lubov#9480",
+        "insertedAt": {
+            "$date": "2022-08-07T13:27:41.981Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:27:41.981Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/lubovrych/status/1556268792904237056?s=21",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Lubov_Nik",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62ed3417999d28201135e42b"
+        },
+        "discordId": "723682975467962378",
+        "discordUsername": "jj-onecrypt#7082",
+        "insertedAt": {
+            "$date": "2022-08-07T23:42:31.804Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T23:42:31.804Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/onecrypt2/status/1555576240794484743?s=21&t=8YY5zvgXFLaLfIUmCqfLTg",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@javajenks ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "2",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efbbcd999d28201135e436"
+        },
+        "discordId": "885562451800756284",
+        "discordUsername": "olasan#8420",
+        "insertedAt": {
+            "$date": "2022-08-07T13:21:53.609Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:21:53.609Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/olasan99/status/1556012910928871424",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@vitaliy_boyko91",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc18a999d28201135e438"
+        },
+        "discordId": "897270285194125343",
+        "discordUsername": "basjedens#9270",
+        "insertedAt": {
+            "$date": "2022-08-07T13:45:25.917Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:45:25.917Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/rome_bobbie/status/1556028514817769472",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@margoasipova",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc22e999d28201135e439"
+        },
+        "discordId": "897270233436401674",
+        "discordUsername": "adjaola#0866",
+        "insertedAt": {
+            "$date": "2022-08-07T13:48:08.276Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:48:08.276Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/adjaolass/status/1556038019798425606",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@amd31",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc2d2999d28201135e43a"
+        },
+        "discordId": "897270255653634088",
+        "discordUsername": "rtanses#6901",
+        "insertedAt": {
+            "$date": "2022-08-07T13:51:10.808Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:51:10.808Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/rtanses87/status/1556041186187567104",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Polinapop",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc325999d28201135e43b"
+        },
+        "discordId": "897068412184956928",
+        "discordUsername": "ckthana#2035",
+        "insertedAt": {
+            "$date": "2022-08-07T13:52:36.932Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:52:36.932Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ckthan900/status/1556013691421818882",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Robimirza88",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc387999d28201135e43c"
+        },
+        "discordId": "887642764878176298",
+        "discordUsername": "Lev#2063",
+        "insertedAt": {
+            "$date": "2022-08-07T13:54:11.715Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:54:11.715Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ametiamson/status/1556042018455015424",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@krista370",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc43d999d28201135e43d"
+        },
+        "discordId": "889153685010141234",
+        "discordUsername": "rinejole#2300",
+        "insertedAt": {
+            "$date": "2022-08-07T13:56:55.65Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:56:55.65Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/rinejolel/status/1556044092529844229",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@televal",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc4e0999d28201135e43e"
+        },
+        "discordId": "887643347051741184",
+        "discordUsername": "Adam99#0248",
+        "insertedAt": {
+            "$date": "2022-08-07T13:59:37.647Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T13:59:37.647Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/eriatianus/status/1556045616106569728",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@YHussien12",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc583999d28201135e43f"
+        },
+        "discordId": "887644196930986014",
+        "discordUsername": "Makar#2521",
+        "insertedAt": {
+            "$date": "2022-08-07T14:02:05.027Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T14:02:05.027Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/BellonHeidi/status/1556047146297720832",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@jhanderpelis",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc592999d28201135e440"
+        },
+        "discordId": "908288419451527190",
+        "discordUsername": "Uly_liana#9789",
+        "insertedAt": {
+            "$date": "2022-08-07T14:02:49.177Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T14:02:49.177Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/uly_liana/status/1556278354864549888?s=21&t=4jv03KI-SBB_ocIqcWMwhA",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Uly_liana",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc615999d28201135e441"
+        },
+        "discordId": "887644728995225620",
+        "discordUsername": "medanus9#6210",
+        "insertedAt": {
+            "$date": "2022-08-07T14:04:29.848Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T14:04:29.848Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/medanus9/status/1556048487535476736",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@suiss_66",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc6a6999d28201135e442"
+        },
+        "discordId": "889158467917611019",
+        "discordUsername": "sanien98#9193",
+        "insertedAt": {
+            "$date": "2022-08-07T14:06:55.03Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T14:06:55.03Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/sanieno98/status/1556050090300776448",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Veliar_Bor",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efc737999d28201135e443"
+        },
+        "discordId": "889159596302807041",
+        "discordUsername": "stebenler#2621",
+        "insertedAt": {
+            "$date": "2022-08-07T14:09:57.81Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T14:09:57.81Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/stebenlert/status/1556051591408517121",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Anna_Volgina89",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62efeb03999d28201135e444"
+        },
+        "discordId": "748513482441228310",
+        "discordUsername": "rhsn#6796",
+        "insertedAt": {
+            "$date": "2022-08-07T16:41:53.33Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T16:41:53.33Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "rhsn06617936",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@rhsn999",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02482999d28201135e44a"
+        },
+        "discordId": "887646839782899724",
+        "discordUsername": "Matvej#1858",
+        "insertedAt": {
+            "$date": "2022-08-07T20:47:38.326Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:47:38.326Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/coacliter/status/1556060238029135875",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@cafwal",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02528999d28201135e44b"
+        },
+        "discordId": "887705190399103006",
+        "discordUsername": "anlanermuel#9664",
+        "insertedAt": {
+            "$date": "2022-08-07T20:50:09.034Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:50:09.034Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ananermuel/status/1556061974848495616",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Ridoykhan92",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f025ba999d28201135e44c"
+        },
+        "discordId": "887708184813371413",
+        "discordUsername": "hacarbrinic#0400",
+        "insertedAt": {
+            "$date": "2022-08-07T20:53:10.678Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:53:10.678Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ShellyDB8/status/1556063406762893314",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Brad Bradly",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f026fe999d28201135e44e"
+        },
+        "discordId": "887711467820949625",
+        "discordUsername": "teren95#0442",
+        "insertedAt": {
+            "$date": "2022-08-07T20:58:59.455Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:58:59.455Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/teren90/status/1556066703985020937",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@kudelia77",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f027c9999d28201135e44f"
+        },
+        "discordId": "887713382533300256",
+        "discordUsername": "adameniestian#2170",
+        "insertedAt": {
+            "$date": "2022-08-07T21:01:21.489Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:01:21.489Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/adamenistian/status/1556068421946703872",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Leon Agapi",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02858999d28201135e450"
+        },
+        "discordId": "887716168968839179",
+        "discordUsername": "emle95#7814",
+        "insertedAt": {
+            "$date": "2022-08-07T21:04:29.778Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:04:29.778Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/emles1995/status/1556069882663505920",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Sascha179",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02915999d28201135e451"
+        },
+        "discordId": "887716965731422218",
+        "discordUsername": "nahn95#9200",
+        "insertedAt": {
+            "$date": "2022-08-07T21:07:11.032Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:07:11.032Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/GodboltMandy/status/1556071736269053954",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Sirotkin",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f029b7999d28201135e452"
+        },
+        "discordId": "887718375114035291",
+        "discordUsername": "elah1982#2784",
+        "insertedAt": {
+            "$date": "2022-08-07T21:09:35.462Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:09:35.462Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/elahh1982/status/1556073273980600320",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Truemen645",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02c41999d28201135e456"
+        },
+        "discordId": "887723828380336158",
+        "discordUsername": "maadlos#1060",
+        "insertedAt": {
+            "$date": "2022-08-07T21:50:28.166Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:50:28.166Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/maadloss/status/1556079501351829505",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@artemborisss",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f020a1999d28201135e446"
+        },
+        "discordId": "889160617980743710",
+        "discordUsername": "chchcanic#7179",
+        "insertedAt": {
+            "$date": "2022-08-07T20:30:06.421Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:30:06.421Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/chchcan/status/1556053420712271880",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Alesha1930",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f021d4999d28201135e447"
+        },
+        "discordId": "889162014381985842",
+        "discordUsername": "lyaumithan#7768",
+        "insertedAt": {
+            "$date": "2022-08-07T20:35:11.118Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:35:11.118Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/lyaumith/status/1556055243758133249",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@beresneva91 ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f022f1999d28201135e448"
+        },
+        "discordId": "887645405968470019",
+        "discordUsername": "Kirill84#2128",
+        "insertedAt": {
+            "$date": "2022-08-07T20:40:02.684Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:40:02.684Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Temoeww/status/1556056844455608322",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@chiranjit0255",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0237a999d28201135e449"
+        },
+        "discordId": "887646160314064917",
+        "discordUsername": "Aleksandr82#2836",
+        "insertedAt": {
+            "$date": "2022-08-07T20:43:12.288Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:43:12.288Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/naliin83/status/1556058491722285060",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@ataear",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02670999d28201135e44d"
+        },
+        "discordId": "888008712030146580",
+        "discordUsername": "allicknor#0885",
+        "insertedAt": {
+            "$date": "2022-08-07T20:55:36.466Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T20:55:36.466Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/allickor/status/1556064943962820608",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@AngelettaLetta",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02a47999d28201135e453"
+        },
+        "discordId": "887719458716663870",
+        "discordUsername": "ckus88#8608",
+        "insertedAt": {
+            "$date": "2022-08-07T21:12:12.864Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:12:12.864Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ckuus88/status/1556074732763611137",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@MerryEver",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02ae6999d28201135e454"
+        },
+        "discordId": "887720539936944148",
+        "discordUsername": "alyexeb#4685",
+        "insertedAt": {
+            "$date": "2022-08-07T21:15:04.188Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:15:04.188Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/alyexebod/status/1556076109569064961",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@zolotov8",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02b8f999d28201135e455"
+        },
+        "discordId": "887721000920318022",
+        "discordUsername": "hamnic80#2832",
+        "insertedAt": {
+            "$date": "2022-08-07T21:18:03.588Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:18:03.588Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Hamnic808/status/1556077667044179968",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Katrin77happy",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02d51999d28201135e457"
+        },
+        "discordId": "887725110914605136",
+        "discordUsername": "sonelden96#9716",
+        "insertedAt": {
+            "$date": "2022-08-07T21:25:43.066Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:25:43.066Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/sonelden9/status/1556080874374012928",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@beshen1957",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02e12999d28201135e458"
+        },
+        "discordId": "889166052771119135",
+        "discordUsername": "linan#0844",
+        "insertedAt": {
+            "$date": "2022-08-07T21:28:19.016Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:28:19.016Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/linanods/status/1556082220552552453",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@xachik1978",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02eab999d28201135e459"
+        },
+        "discordId": "889166765463076937",
+        "discordUsername": "inniel97#0264",
+        "insertedAt": {
+            "$date": "2022-08-07T21:31:04.201Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:31:04.201Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02f4f999d28201135e45a"
+        },
+        "discordId": "889167551383371806",
+        "discordUsername": "stinchah#1386",
+        "insertedAt": {
+            "$date": "2022-08-07T21:33:35.317Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:33:35.317Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Stinclah/status/1556084432716677124",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Mass0777",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f02fe7999d28201135e45b"
+        },
+        "discordId": "889168117585047553",
+        "discordUsername": "cejoex#0489",
+        "insertedAt": {
+            "$date": "2022-08-07T21:36:33.557Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:36:33.557Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/cejoexx/status/1556086015676276738",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@wl371642",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0309f999d28201135e45c"
+        },
+        "discordId": "889169400236744715",
+        "discordUsername": "tianthy85#0776",
+        "insertedAt": {
+            "$date": "2022-08-07T21:39:19.519Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:39:19.519Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/tianty85/status/1556087533058068481",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Larysia",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f033dc999d28201135e460"
+        },
+        "discordId": "889171641433735208",
+        "discordUsername": "tulalynel#7472",
+        "insertedAt": {
+            "$date": "2022-08-07T21:52:59.361Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:52:59.361Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/tulalynelll/status/1556093704284381184",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@kraussan",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03472999d28201135e461"
+        },
+        "discordId": "889172246898282526",
+        "discordUsername": "guyaob87#5446",
+        "insertedAt": {
+            "$date": "2022-08-07T21:55:32.985Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:55:32.985Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/guyab87/status/1556095387949305856",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@RafaelEisenhorn",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f035a8999d28201135e463"
+        },
+        "discordId": "889173154818306048",
+        "discordUsername": "geriam88#1661",
+        "insertedAt": {
+            "$date": "2022-08-07T22:00:48.458Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:00:48.458Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/geriamf88/status/1556098352063942656",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@zenit86",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03649999d28201135e464"
+        },
+        "discordId": "889173923286102096",
+        "discordUsername": "stelian86#3258",
+        "insertedAt": {
+            "$date": "2022-08-07T22:03:21.586Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:03:21.586Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/stelian860/status/1556099963897135105",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@mmm4969 ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f036e1999d28201135e465"
+        },
+        "discordId": "889174645557841960",
+        "discordUsername": "morrlyex#1316",
+        "insertedAt": {
+            "$date": "2022-08-07T22:05:43.948Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:05:43.948Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/morlyexe/status/1556101321685614595",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Fawnahad",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03770999d28201135e466"
+        },
+        "discordId": "889175170114285629",
+        "discordUsername": "jusrijaes#5065",
+        "insertedAt": {
+            "$date": "2022-08-07T22:08:42.534Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:08:42.534Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/jusrjaes/status/1556102889009025027",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Squveks",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f038c1999d28201135e468"
+        },
+        "discordId": "889180131262890024",
+        "discordUsername": "Roman86#2539",
+        "insertedAt": {
+            "$date": "2022-08-07T22:13:44.968Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:13:44.968Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Kongg199/status/1556106076294156288",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@gamova32",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03950999d28201135e469"
+        },
+        "discordId": "889182644355596338",
+        "discordUsername": "jaattin89#5609",
+        "insertedAt": {
+            "$date": "2022-08-07T22:16:16.638Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:16:16.638Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/jaattin9/status/1556107653482520577",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@serega_radostev",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f039ec999d28201135e46a"
+        },
+        "discordId": "889185550257487892",
+        "discordUsername": "narick89#3765",
+        "insertedAt": {
+            "$date": "2022-08-07T22:18:53.411Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:18:53.411Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/nariick89/status/1556109903185444865",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@LECHIN7802",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03a88999d28201135e46b"
+        },
+        "discordId": "889186821404258374",
+        "discordUsername": "Daniil94#6374",
+        "insertedAt": {
+            "$date": "2022-08-07T22:21:39.489Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:21:39.489Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Kimberill2/status/1556111776764379138",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@az000000p",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0313f999d28201135e45d"
+        },
+        "discordId": "889170141387038740",
+        "discordUsername": "nawyanac#4937",
+        "insertedAt": {
+            "$date": "2022-08-07T21:41:59.845Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:41:59.845Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/nawyanas/status/1556089048355192832",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@adam_744",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f031e0999d28201135e45e"
+        },
+        "discordId": "889170658506981386",
+        "discordUsername": "jarazalos#9134",
+        "insertedAt": {
+            "$date": "2022-08-07T21:44:39.766Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:44:39.766Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/jarazalo/status/1556090553753915392",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@kowbasa",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0327e999d28201135e45f"
+        },
+        "discordId": "889171083419328532",
+        "discordUsername": "donshdan#8100",
+        "insertedAt": {
+            "$date": "2022-08-07T21:48:07.551Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:48:07.551Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/donshawc/status/1556092042396172294",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Classic215",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0350e999d28201135e462"
+        },
+        "discordId": "889172688885653575",
+        "discordUsername": "MarkYou65912187#2943",
+        "insertedAt": {
+            "$date": "2022-08-07T21:58:06.189Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T21:58:06.189Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/PamelaJJ8/status/1556096945525067780",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Maxim_mgt",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03820999d28201135e467"
+        },
+        "discordId": "889176948092309574",
+        "discordUsername": "thyjeske#9656",
+        "insertedAt": {
+            "$date": "2022-08-07T22:11:22.4Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:11:22.4Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/thyjeske/status/1556104277248118784",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Den_Ivanov90",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03b2f999d28201135e46c"
+        },
+        "discordId": "889187451426463754",
+        "discordUsername": "jenriason#8592",
+        "insertedAt": {
+            "$date": "2022-08-07T22:24:15.472Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:24:15.472Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/jenriasons/status/1556113525659025408",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@eliyasesc",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03bc7999d28201135e46d"
+        },
+        "discordId": "889188389113446422",
+        "discordUsername": "ridenen92#1224",
+        "insertedAt": {
+            "$date": "2022-08-07T22:27:32.807Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:27:32.807Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ridenenot/status/1556114980537262081",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@dozente",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03e05999d28201135e470"
+        },
+        "discordId": "889191853902155807",
+        "discordUsername": "haijenatt#6573",
+        "insertedAt": {
+            "$date": "2022-08-07T22:36:41.632Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:36:41.632Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/haijenat/status/1556119610725998593",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@loooloolol3",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03eb2999d28201135e471"
+        },
+        "discordId": "889193168678060112",
+        "discordUsername": "admenain#9626",
+        "insertedAt": {
+            "$date": "2022-08-07T22:39:14.504Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:39:14.504Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/admenain/status/1556121035036323840",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Antomoris",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03f4b999d28201135e472"
+        },
+        "discordId": "889196604819664957",
+        "discordUsername": "ckse81#9528",
+        "insertedAt": {
+            "$date": "2022-08-07T22:41:55.916Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:41:55.916Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/cksee81/status/1556122538589167618",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@armyweaponz",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03fee999d28201135e473"
+        },
+        "discordId": "889197128998608928",
+        "discordUsername": "Vadim95#8213",
+        "insertedAt": {
+            "$date": "2022-08-07T22:44:21.456Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:44:21.456Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Vadimos95/status/1556123868737277955",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@andreproh",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0407c999d28201135e474"
+        },
+        "discordId": "889198521587220520",
+        "discordUsername": "ritydy#2038",
+        "insertedAt": {
+            "$date": "2022-08-07T22:47:20.979Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:47:20.979Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ritydyri/status/1556125595817451520",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@jorgeluism25",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03c8e999d28201135e46e"
+        },
+        "discordId": "889189186731659324",
+        "discordUsername": "dieton86#6102",
+        "insertedAt": {
+            "$date": "2022-08-07T22:30:43.719Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:30:43.719Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/dietonup/status/1556116660121214976",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@pablo202020",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f03d4f999d28201135e46f"
+        },
+        "discordId": "889190553789546556",
+        "discordUsername": "ssason96#3806",
+        "insertedAt": {
+            "$date": "2022-08-07T22:33:47.637Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:33:47.637Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/sssason96/status/1556118212508614662",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Gabeke90",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f04130999d28201135e475"
+        },
+        "discordId": "889200631921909781",
+        "discordUsername": "Ivan91#8295",
+        "insertedAt": {
+            "$date": "2022-08-07T22:49:51.533Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:49:51.533Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/blabrexas/status/1556127063542833154",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@AnnaFiod",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f041c6999d28201135e476"
+        },
+        "discordId": "889205450950729728",
+        "discordUsername": "siolas83#2662",
+        "insertedAt": {
+            "$date": "2022-08-07T22:52:59.705Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:52:59.705Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/siolal83/status/1556128854368047105",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@katerinkinaa",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f04288999d28201135e477"
+        },
+        "discordId": "889206838904619098",
+        "discordUsername": "andrlieew#7172",
+        "insertedAt": {
+            "$date": "2022-08-07T22:56:55.979Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:56:55.979Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/andrliee/status/1556130294775914497",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Cootly ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f04371999d28201135e478"
+        },
+        "discordId": "889225447638974494",
+        "discordUsername": "anen89#8644",
+        "insertedAt": {
+            "$date": "2022-08-07T22:59:47.419Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-07T22:59:47.419Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/annen890/status/1556131929937813504",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Ronimirza0",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0b4d5999d28201135e47a"
+        },
+        "discordId": "889226959320653835",
+        "discordUsername": "icaxishew#5707",
+        "insertedAt": {
+            "$date": "2022-08-08T07:03:36.072Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:03:36.072Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/icaxihew/status/1556133646414671872",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Sodzelodze",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0b57f999d28201135e47b"
+        },
+        "discordId": "889229474921586709",
+        "discordUsername": "levin#3257",
+        "insertedAt": {
+            "$date": "2022-08-08T07:06:52.411Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:06:52.411Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/levinL0/status/1556135086906646529",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@vika144144",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0b643999d28201135e47c"
+        },
+        "discordId": "889232689490690130",
+        "discordUsername": "ryphle93#9281",
+        "insertedAt": {
+            "$date": "2022-08-08T07:09:50.785Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:09:50.785Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ry9hle93/status/1556136859541114880",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@mafuba3",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0b6f6999d28201135e47d"
+        },
+        "discordId": "889233733373280286",
+        "discordUsername": "chmandrogo#6988",
+        "insertedAt": {
+            "$date": "2022-08-08T07:12:29.405Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:12:29.405Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/cmandrogo/status/1556138811754774528",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Nick8525",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0b310999d28201135e479"
+        },
+        "discordId": "794435937181892658",
+        "discordUsername": "technopoint2020#4890",
+        "insertedAt": {
+            "$date": "2022-08-08T07:13:42.291Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:13:42.291Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/_Misha__24/status/1556538554536394752?s=20&t=SoCUCsaBoPHjl9jxpBURNw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@msl_24",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0b799999d28201135e47e"
+        },
+        "discordId": "889234600705028167",
+        "discordUsername": "liricker#4220",
+        "insertedAt": {
+            "$date": "2022-08-08T07:15:15.684Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:15:15.684Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/lirickera/status/1556140342898003970",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Nick7551",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0b83c999d28201135e47f"
+        },
+        "discordId": "889236346005237853",
+        "discordUsername": "norob81#8156",
+        "insertedAt": {
+            "$date": "2022-08-08T07:18:06.435Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:18:06.435Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/noro681/status/1556141863400312834",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@NNM080",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0b8e5999d28201135e480"
+        },
+        "discordId": "889237681475813467",
+        "discordUsername": "stinleyis#4300",
+        "insertedAt": {
+            "$date": "2022-08-08T07:21:33.525Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:21:33.525Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/stinleyris/status/1556143587376635904",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@NikolaiSmirn ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0bb98999d28201135e484"
+        },
+        "discordId": "889246245586100315",
+        "discordUsername": "ewdonle83#0298",
+        "insertedAt": {
+            "$date": "2022-08-08T07:32:09.203Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:32:09.203Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ewidonle83/status/1556150070692773889",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@pavel564",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0bd85999d28201135e487"
+        },
+        "discordId": "889250808665866270",
+        "discordUsername": "emkayvinhew#0148",
+        "insertedAt": {
+            "$date": "2022-08-08T07:40:41.542Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:40:41.542Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/HeidiNe9/status/1556153684467269635",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@lina202121",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0be35999d28201135e488"
+        },
+        "discordId": "889252114432393287",
+        "discordUsername": "gelgel3541#9262",
+        "insertedAt": {
+            "$date": "2022-08-08T07:43:09.238Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:43:09.238Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Creati04/status/1556155468350980096",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Snbela",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0bf58999d28201135e48a"
+        },
+        "discordId": "889256481776611350",
+        "discordUsername": "matjaann#5510",
+        "insertedAt": {
+            "$date": "2022-08-08T07:48:19.693Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:48:19.693Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/matjjaan/status/1556158440342491137",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@lizakutepova",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0bffc999d28201135e48b"
+        },
+        "discordId": "889257678872928358",
+        "discordUsername": "ellemanorr#7164",
+        "insertedAt": {
+            "$date": "2022-08-08T07:50:51.441Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:50:51.441Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ellmanur/status/1556159783463419905",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@popov900",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c147999d28201135e48d"
+        },
+        "discordId": "889261707548045322",
+        "discordUsername": "juavaian#7052",
+        "insertedAt": {
+            "$date": "2022-08-08T07:56:41.616Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:56:41.616Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/juavanii/status/1556163747005321216",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Alibo91",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c1f4999d28201135e48e"
+        },
+        "discordId": "889263204218323025",
+        "discordUsername": "guiasedy#4523",
+        "insertedAt": {
+            "$date": "2022-08-08T07:59:26.476Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:59:26.476Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/guiasedy3/status/1556165271102144512",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@machoboss",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c3eb999d28201135e491"
+        },
+        "discordId": "889266291033129082",
+        "discordUsername": "Andrej#2199",
+        "insertedAt": {
+            "$date": "2022-08-08T08:07:41.34Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T08:07:41.34Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/buske_carrie/status/1556170147995549696",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@MahmoudMohmed555",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0b9b5999d28201135e481"
+        },
+        "discordId": "889239319645147166",
+        "discordUsername": "nicmitian#4075",
+        "insertedAt": {
+            "$date": "2022-08-08T07:24:05.206Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:24:05.206Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/nicmitiano/status/1556145409113956354",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Geyza55",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0ba4f999d28201135e482"
+        },
+        "discordId": "889240673272868944",
+        "discordUsername": "abllhanse#6783",
+        "insertedAt": {
+            "$date": "2022-08-08T07:26:38.847Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:26:38.847Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ablhanse/status/1556147087565365250",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@obhatafg",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0baeb999d28201135e483"
+        },
+        "discordId": "889242402320166963",
+        "discordUsername": "viaaden#5115",
+        "insertedAt": {
+            "$date": "2022-08-08T07:29:35.164Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:29:35.164Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/viafaden/status/1556148399409446912",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@doomnerto",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0bc31999d28201135e485"
+        },
+        "discordId": "889247806827663411",
+        "discordUsername": "ernaer#9754",
+        "insertedAt": {
+            "$date": "2022-08-08T07:34:50.453Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:34:50.453Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ernate89/status/1556227315306307584",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Joeferone",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0bcd2999d28201135e486"
+        },
+        "discordId": "889249519802413096",
+        "discordUsername": "ahdanck#5006",
+        "insertedAt": {
+            "$date": "2022-08-08T07:37:48.987Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:37:48.987Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/ahedanck/status/1556151905776197632",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@tramvai822",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0bec6999d28201135e489"
+        },
+        "discordId": "889254127622836274",
+        "discordUsername": "aigabmesic91#4100",
+        "insertedAt": {
+            "$date": "2022-08-08T07:45:35.475Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:45:35.475Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/aigabesic/status/1556156889003606016",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Irinainkiv5",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c092999d28201135e48c"
+        },
+        "discordId": "889260168997650442",
+        "discordUsername": "chleyob#6057",
+        "insertedAt": {
+            "$date": "2022-08-08T07:53:46.101Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T07:53:46.101Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/chleyob6/status/1556161554630033414",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Vikababyboss",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c29e999d28201135e48f"
+        },
+        "discordId": "889263518300401706",
+        "discordUsername": "hariamuel#0163",
+        "insertedAt": {
+            "$date": "2022-08-08T08:02:19.509Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T08:02:19.509Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/harimulll/status/1556166737791418368",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@qalibqurbanov",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c348999d28201135e490"
+        },
+        "discordId": "889265033970860032",
+        "discordUsername": "thdoanen#3512",
+        "insertedAt": {
+            "$date": "2022-08-08T08:05:06.437Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T08:05:06.437Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/thdoanen6/status/1556168256808943616",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@AndreyBaev23",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c486999d28201135e492"
+        },
+        "discordId": "889267739573776424",
+        "discordUsername": "hunliago92#0563",
+        "insertedAt": {
+            "$date": "2022-08-08T08:10:24.078Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T08:10:24.078Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/hunligo92/status/1556171527451820032",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@mhmadjamel",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c528999d28201135e493"
+        },
+        "discordId": "889268988503289896",
+        "discordUsername": "niaudony#4280",
+        "insertedAt": {
+            "$date": "2022-08-08T08:13:06.283Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T08:13:06.283Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/KathiBeasley13/status/1556172860086943744",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@mama12q",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c5cb999d28201135e494"
+        },
+        "discordId": "889271099395801100",
+        "discordUsername": "amestin88#6878",
+        "insertedAt": {
+            "$date": "2022-08-08T08:15:40.29Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T08:15:40.29Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/amestin8/status/1556174702158258176",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Zakaria91 ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c665999d28201135e495"
+        },
+        "discordId": "889272180616073268",
+        "discordUsername": "thleyam#8472",
+        "insertedAt": {
+            "$date": "2022-08-08T08:18:59.378Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T08:18:59.378Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/thleyamm/status/1556176563321937920",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@yarm_532",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0c72d999d28201135e496"
+        },
+        "discordId": "889273072052478022",
+        "discordUsername": "linrigel#7028",
+        "insertedAt": {
+            "$date": "2022-08-08T08:21:34.284Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T08:21:34.284Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/linrigol/status/1556178060889788417",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@Nataly311058",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0cc56999d28201135e497"
+        },
+        "discordId": "908057397573070868",
+        "discordUsername": "alexav901#2145",
+        "insertedAt": {
+            "$date": "2022-08-08T08:48:04.879Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T08:48:04.879Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/alexav901/status/1556561721132818432?s=20&t=MgspH6ih6l-6qD8OuCJk2g",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@alexav901",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0dd01999d28201135e498"
+        },
+        "discordId": "925983462618460210",
+        "discordUsername": "S1ghtEd#3718",
+        "insertedAt": {
+            "$date": "2022-08-08T10:02:17.351Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T10:02:17.351Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/S1ghtE/status/1556581035600658432?s=20&t=apbqNT1MnQBUehhdQhKKTA",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@S1ghtEd",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f0fe69999d28201135e499"
+        },
+        "discordId": "852475204671504394",
+        "discordUsername": "Talan#4460",
+        "insertedAt": {
+            "$date": "2022-08-08T12:25:58.571Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T12:25:58.571Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/st1nfer/status/1556617609667297280",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@stinfer",
+        "resp1": "2",
+        "resp2": "1",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f13ebd999d28201135e49a"
+        },
+        "discordId": "844473330668929045",
+        "discordUsername": "Ilgar#8504",
+        "insertedAt": {
+            "$date": "2022-08-08T16:50:05.627Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T16:50:05.627Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62f1472c999d28201135e49b"
+        },
+        "discordId": "892104014114734100",
+        "discordUsername": "Хитрый Алекс#6405",
+        "insertedAt": {
+            "$date": "2022-08-08T17:57:22.731Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T17:57:22.731Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/GonAlcher/status/1556698643704545281?s=20",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@АГГ ",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f14df8999d28201135e49d"
+        },
+        "discordId": "464785123460513802",
+        "discordUsername": "Uncle#2783",
+        "insertedAt": {
+            "$date": "2022-08-08T18:03:29.072Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T18:03:29.072Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Ruslan7371/status/1556702448412233732",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@RuslanivanoV",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f14c98999d28201135e49c"
+        },
+        "discordId": "813157429214183435",
+        "discordUsername": "Estefania (stf_thisiz)#6747",
+        "insertedAt": {
+            "$date": "2022-08-08T18:07:34.849Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T18:07:34.849Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/Stf_ThisIz/status/1556702006693302272",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@stf_thisiz",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "1",
+        "isInServer": false
+    },
+    {
+        "_id": {
+            "$oid": "62f15a3f999d28201135e49e"
+        },
+        "discordId": "729683059753877505",
+        "discordUsername": "Step78#2363",
+        "insertedAt": {
+            "$date": "2022-08-08T18:47:27.333Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T18:47:27.333Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "",
+        "emailMission": "",
+        "twitterMission": "",
+        "missionXp": 0,
+        "existingXp": 0,
+        "totalXp": 0,
+        "inServer": 0,
+        "role": "",
+        "telegramUserName": "",
+        "resp1": 0,
+        "resp2": 0,
+        "resp3": 0
+    },
+{
+        "_id": {
+            "$oid": "62f172de999d28201135e49f"
+        },
+        "discordId": "392385788471672832",
+        "discordUsername": "POC-Defi#9476",
+        "insertedAt": {
+            "$date": "2022-08-08T20:45:55.342Z"
+        },
+        "updatedAt": {
+            "$date": "2022-08-08T20:45:55.342Z"
+        },
+        "karuraAddress": "",
+        "email": "",
+        "twitterLink": "https://twitter.com/hwo/status/1556742616301162496?s=20&t=wmazfhSOAJhSj7H0ktRVFw",
+        "emailMission": null,
+        "twitterMission": null,
+        "missionXp": null,
+        "existingXp": null,
+        "totalXp": null,
+        "inServer": 0,
+        "role": "0",
+        "telegramUserName": "@drcryp20",
+        "resp1": "2",
+        "resp2": "3",
+        "resp3": "3",
+        "isInServer": false
+    }
+]

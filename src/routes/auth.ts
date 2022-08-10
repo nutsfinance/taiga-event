@@ -3,7 +3,7 @@ import passport from "passport";
 
 const alreadyLoggedIn = (req: Request, res: Response, next: any) => {
   if (req.isAuthenticated()) {
-    res.redirect("/form");
+    res.redirect("/profile");
   } else {
     next();
   }
@@ -19,6 +19,6 @@ authRoutes.get(
     failureRedirect: "/",
   }),
   (_req, res) => {
-    res.redirect("/form");
+    res.redirect("/profile");
   }
 );

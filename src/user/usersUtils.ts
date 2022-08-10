@@ -3,7 +3,7 @@ const mission1Json = require("../../json/mission1Json.json")
 const mission2Json = require("../../json/mission2Json.json")
 const mission3Json = require("../../json/mission3Json.json")
 const missionIsInServer = require("../../json/missionIsInServerJson.json")
-const users = require('../../json/userFinalXpEvent3.json');
+const users = require('../../json/userEvent5.json');
 const telegram = require('../../json/telegramWinners.json');
 const twitter = require('../../json/twitterWinnerList.json');
 
